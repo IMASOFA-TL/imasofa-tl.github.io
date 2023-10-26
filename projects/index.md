@@ -11,7 +11,7 @@ footer-dark: false
 
 # {% include icon.html icon="fa-solid fa-wrench" %}汉化进度
 
-偶像大师OFA汉化人员筹备进度如下(已募集人数 / 预计需求人数)：
+偶像大师OFA汉化人员筹备进度如下(已募集人数 / 立项预计需求人数)：
 
 ```mermaid!
 %%{init:{
