@@ -9,7 +9,7 @@ header-dark: false
 footer-dark: false
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}汉化进度
+# {% include icon.html icon="fa-solid fa-wrench" %}筹备进度
 
 偶像大师OFA汉化人员筹备进度如下(已募集人数 / 立项预计需求人数)：
 
