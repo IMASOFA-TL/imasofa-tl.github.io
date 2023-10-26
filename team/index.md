@@ -27,7 +27,7 @@ footer-dark: false
 </div>
 
 {% include section.html %}
-### 组长
+### 筹备组组长
 
 {% include portrait.html lookup="Aaron_nep" style="small" %}
 
@@ -44,13 +44,13 @@ footer-dark: false
 {% include portrait.html lookup="Aaron_nep" style="small" %}
 {% include portrait.html lookup="22" style="small" %}
 
-### 美工编辑
+### 募集美工编辑
 
 {% include portrait.html lookup="星仙人" style="small" %}
 {% include portrait.html lookup="ZheiZhei" style="small" %}
 {% include portrait.html lookup="三度音" style="small" %}
 
-### 文本编辑
+### 募集文本编辑
 
 {% include portrait.html lookup="22" style="small" %}
 {% include portrait.html lookup="瑟雭" style="small" %}
