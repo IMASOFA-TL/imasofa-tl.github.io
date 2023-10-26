@@ -1,11 +1,11 @@
 ---
-name: 盐煎肘子
-image: images/qct.jpg
-role: jptl
+name: viola
+image: images/viola.jpg
+role: editor
 header: images/header-background.jpg
 footer: images/footer-background.jpg
 links:
     home-page: about:blank
 ---
 
-偶像大师SP汉化组翻译，校对审核。
+偶像大师OFA募集文本编辑。

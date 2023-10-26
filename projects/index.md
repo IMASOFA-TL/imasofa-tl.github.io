@@ -4,7 +4,7 @@ nav:
   order: 2
   tooltip: 当前筹备进度
 header: images/header-background.jpg
-footer: images/header-background.jpg
+footer: images/footer-background.jpg
 header-dark: false
 footer-dark: false
 ---

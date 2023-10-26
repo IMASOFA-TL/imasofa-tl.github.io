@@ -1,11 +1,11 @@
 ---
-name: LankerCN
-image: images/lankercn.jpg
-role: jptl
+name: ZheiZhei
+image: images/ZheiZhei.jpg
+role: art
 header: images/header-background.jpg
 footer: images/footer-background.jpg
 links:
     home-page: about:blank
 ---
 
-偶像大师SP汉化组翻译，校对审核。
+偶像大师OFA募集UI美工
