@@ -5,7 +5,7 @@ role: chjptl
 aliases:
   - shion
 header: images/header-background.jpg
-footer: images/header-background.jpg
+footer: images/footer-background.jpg
 links:
     home-page: about:blank
 ---

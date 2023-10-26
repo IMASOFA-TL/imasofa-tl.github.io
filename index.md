@@ -1,22 +1,22 @@
 ---
-title: 偶像大师SP汉化项目
-description: 偶像大师SP汉化
+title: 偶像大师OFA汉化项目
+description: 偶像大师OFA汉化
 nav:
   order: 1
-  tooltip: IM@S-SP-SCH-TLProject
+  tooltip: IM@S-OFA-SCH-TLProject
 header: images/header-background.jpg
-footer: images/header-background.jpg
+footer: images/footer-background.jpg
 header-dark: false
 footer-dark: false
 redirect_from:
   - accolades
 ---
 
-# 偶像大师SP 简体中文汉化项目
+# 偶像大师One For All 简体中文汉化项目
 
-《偶像大师 SP》（日语：アイドルマスターエスピー，英语：THE IDOLM@STER SP）是南梦宫（Namco）于2009年2月19日发售的PSP游戏。游戏内容基本上和街机版相同，但亦有不同之处。游戏有Perfect Sun（完美之日）、Missing Moon（思念之月）和Wondering Star（惊奇之星）三个版本。
+《偶像大师 One For All》（偶像大师 全力以赴，日语：アイドルマスター ワンフォーオール，英语：THE iDOLM@STER ONE FOR ALL）是万代南梦宫（Bandai Namco）于2014年5月15日发售的PS3游戏。其游戏内容与前作《偶像大师2》相似，但作了一些改进和更动，让玩家可以培育游戏中765事务所的所有偶像。
 
-本网站为《偶像大师 SP》简体中文汉化组项目主页。
+本网站为《偶像大师 One For All》简体中文汉化项目筹备主页。
 
 {% include section.html %}
 
@@ -24,12 +24,12 @@ redirect_from:
 
 {% capture text %}
 
-我们的目标是对《偶像大师 SP》的对话、mail、DLC以及UI和图片进行完全的简体中文汉化工作。
+我们的目标是对《偶像大师 One For All》的对话、mail、DLC以及UI和图片进行完全的简体中文汉化工作。
 
 {%
   include button.html
   link="projects"
-  text="资源下载"
+  text="效果预览"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -47,12 +47,12 @@ redirect_from:
 
 {% capture text %}
 
-我们因一致的热爱而聚集，来自全国各地，为汉化偶像大师SP而合作。
+我们因一致的热爱而聚集，为汉化偶像大师OFA而合作。
 
 {%
   include button.html
   link="team"
-  text="汉化组成员"
+  text="筹备成员"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -72,12 +72,12 @@ redirect_from:
 
 {% capture text %}
 
-如果你能够进行日译、程序、修图，亦或是有一腔热情，愿意协助测试，偶像大师SP汉化组欢迎你的加入！
+如果你能够进行日译、程序、修图，亦或是有一腔热情，愿意协助测试，偶像大师OFA汉化项目欢迎你的加入！
 
 {%
   include button.html
   link="contact"
-  text="加入汉化组"
+  text="加入筹备群"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"

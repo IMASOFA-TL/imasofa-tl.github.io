@@ -5,7 +5,7 @@ role: pl
 aliases:
   - Waldenth
 header: images/header-background.jpg
-footer: images/header-background.jpg
+footer: images/footer-background.jpg
 links:
   bilibili: "31914896"
   github: Waldenth

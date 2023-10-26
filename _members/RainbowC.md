@@ -3,7 +3,7 @@ name: RainbowC
 image: images/rainbowc.jpg
 role: ea
 header: images/header-background.jpg
-footer: images/header-background.jpg
+footer: images/footer-background.jpg
 links:
     bilibili: "20274471"
 ---

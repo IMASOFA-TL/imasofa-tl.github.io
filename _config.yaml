@@ -3,14 +3,14 @@ title: 偶像大师SP汉化组
 subtitle: 
 description: 偶像大师SP汉化
 header: images/header-background.jpg
-footer: images/header-background.jpg
+footer: images/footer-background.jpg
 
 # site social media and other links
 links:
   email: waldenth@outlook.com
   github: IMASSP-TL
   bilibili: "31914896"
-  friendlylink: IMASOFA-TL
+  friendlylink: ""
 
 ### jekyll settings
 
