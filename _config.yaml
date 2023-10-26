@@ -4,6 +4,8 @@ subtitle:
 description: 偶像大师OFA汉化项目
 header: images/header-background.jpg
 footer: images/footer-background.jpg
+header-dark: false
+footer-dark: false
 
 # site social media and other links
 links:

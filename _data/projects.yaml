@@ -2,7 +2,7 @@
   subtitle: 系统信息汉化
   group: featured
   image: images/ui.jpg
-  description: 对BOOT信息汉化，并处理UI图片
+  description: 对系统设置汉化，并处理UI图片
 
 - title: 对话信息
   subtitle: 主线对话汉化

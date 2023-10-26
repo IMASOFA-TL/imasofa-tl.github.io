@@ -29,7 +29,7 @@ redirect_from:
 {%
   include button.html
   link="projects"
-  text="效果预览"
+  text="进度预览"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
