@@ -1,5 +1,5 @@
 
-# IMASOFA-TL's Website
+# IMAS-OFA Chinese Translation Project Website
 
 Visit **[imasofa-tl.github.io](https://imasofa-tl.github.io)** 🚀
 

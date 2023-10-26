@@ -1,47 +1,23 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: 系统UI
+  subtitle: 系统信息汉化
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: images/ui.jpg
+  description: 对BOOT信息汉化，并处理UI图片
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: 对话信息
+  subtitle: 主线对话汉化
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: images/prev0.jpg
+  description: 对游戏主线中的对话和选择分支进行汉化
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
+- title: 说明信息
+  subtitle: 说明介绍汉化
+  group: featured
+  image: images/info.jpg
+  description: 对于游戏中的文本型说明信息进行汉化
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: Mail和DLC
+  subtitle: 特殊信息
+  group: featured
+  image: images/mail.jpg
+  description: 偶像大师特色Mail和DLC信息汉化

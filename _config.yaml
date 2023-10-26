@@ -1,18 +1,16 @@
 # site properties and page defaults
-title: IMASOFA-TL
+title: 偶像大师SP汉化组
 subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+description: 偶像大师SP汉化
+header: images/header-background.jpg
+footer: images/header-background.jpg
 
 # site social media and other links
 links:
-  email: contact@IMASOFA-TL.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: IMASOFA-TL
-  twitter: IMASOFA-TL
-  youtube: IMASOFA-TL
+  email: waldenth@outlook.com
+  github: IMASSP-TL
+  bilibili: "31914896"
+  friendlylink: IMASOFA-TL
 
 ### jekyll settings
 

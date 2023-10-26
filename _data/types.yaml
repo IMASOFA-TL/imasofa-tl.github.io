@@ -2,10 +2,6 @@
 
 # team member roles
 
-pi:
-  icon: fa-solid fa-microscope
-  description: Principal Investigator
-
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
@@ -22,9 +18,45 @@ programmer:
   icon: fa-solid fa-code
   description: Programmer
 
+pl:
+  icon: fa-solid fa-code
+  description: Leader&Programmer
+
+pr:
+  icon: fa-solid fa-code
+  description: Programmer&Retoucher
+
+chjptl:
+  icon: fa-solid fa-language
+  description: Chief Translator
+
 mascot:
   icon: fa-solid fa-dog
   description: Mascot
+
+jptl:
+  icon: fa-solid fa-language
+  description: JP Translator
+
+tester:
+  icon: fa-solid fa-microscope
+  description: Tester
+
+tp:
+  icon: fa-solid fa-microscope
+  description: Tester&Programmer
+
+art:
+  icon: fa-solid fa-palette
+  description: Retoucher
+
+editor:
+  icon: fa-solid fa-user-pen
+  description: Editor
+
+ea:
+  icon: fa-solid fa-circle-info
+  description: EA
 
 # general
 
@@ -69,6 +101,11 @@ search:
   icon: fa-solid fa-magnifying-glass
   text: Search
   tooltip: Search
+
+video:
+  icon: fa-brands fa-bilibili
+  text: B站Demo
+  tooltip: B站Demo
 
 # social media
 
@@ -119,6 +156,19 @@ linkedin:
   text: LinkedIn
   tooltip: LinkedIn
   link: https://www.linkedin.com/in/$VALUE
+
+bilibili:
+  icon: fa-brands fa-bilibili
+  text: Bilibili
+  tooltip: Bilibili
+  link: https://space.bilibili.com/$VALUE
+
+friendlylink:
+  icon: fa-solid fa-link
+  text: OFA项目友链
+  tooltip: OFA项目友链
+  link: https://imas-sp.com
+
 
 # alerts
 

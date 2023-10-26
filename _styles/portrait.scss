@@ -1,8 +1,15 @@
 ---
 ---
+.portrait-wrapper-alignleft {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 200px);
+}
 
 .portrait-wrapper {
   display: contents;
+  text-align: center;
 }
 
 .portrait {
@@ -19,7 +26,7 @@
 }
 
 .portrait[data-style="small"] {
-  width: 100px;
+  width: 150px;
 }
 
 .portrait[data-style="tiny"] {
