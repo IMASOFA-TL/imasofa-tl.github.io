@@ -30,15 +30,15 @@ gantt
 
     section 文本工作
     编辑 5/20+: editor,0,25
-    翻译 2/15+ : tl,0,20
-    高级翻译 1/5+ : sentl,0,20
+    翻译 4/15+ : tl,0,26
+    高级翻译 2/5+ : sentl,0,40
     section UI工作
-    美工 3/10+ : re,0,30
+    美工 4/10+ : re,0,40
     section 技术
     程序 1/NaN+ : pg,0,100
     测试 2/NaN+ : test,0,100
     section 筹备进度
-    募集人数 12/50+ : total,0,24
+    募集人数 16/50+ : total,0,32
 ```
 
 {% include tags.html tags="publication, resource, website" %}

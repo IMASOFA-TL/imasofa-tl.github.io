@@ -36,6 +36,7 @@ footer-dark: false
 {% include portrait.html lookup="如月咏星" style="small" %}
 {% include portrait.html lookup="琥珀" style="small" %}
 {% include portrait.html lookup="油一桶" style="small" %}
+{% include portrait.html lookup="飛鳥唯" style="small" %}
 {% include portrait.html lookup="177013" style="small" %}
 {% include portrait.html lookup="梦前" style="small" %}
 
@@ -49,6 +50,7 @@ footer-dark: false
 {% include portrait.html lookup="星仙人" style="small" %}
 {% include portrait.html lookup="ZheiZhei" style="small" %}
 {% include portrait.html lookup="三度音" style="small" %}
+{% include portrait.html lookup="MiyamiNANA" style="small" %}
 
 ### 募集文本编辑
 
