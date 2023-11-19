@@ -37,6 +37,7 @@ footer-dark: false
 {% include portrait.html lookup="琥珀" style="small" %}
 {% include portrait.html lookup="油一桶" style="small" %}
 {% include portrait.html lookup="飛鳥唯" style="small" %}
+{% include portrait.html lookup="伤情" style="small" %}
 {% include portrait.html lookup="177013" style="small" %}
 {% include portrait.html lookup="梦前" style="small" %}
 
