@@ -39,7 +39,6 @@ footer-dark: false
 {% include portrait.html lookup="飛鳥唯" style="small" %}
 {% include portrait.html lookup="伤情" style="small" %}
 {% include portrait.html lookup="177013" style="small" %}
-{% include portrait.html lookup="梦前" style="small" %}
 
 ### 募集程序&测试
 
