@@ -2,7 +2,7 @@
 title: 偶像大师-OFA DISC版本 Patch说明
 author: Aaron_nep
 tags:
-  - Archive
+  - Tutorial
 ---
 
 偶像大师-OFA DISC 汉化Patch说明
@@ -14,7 +14,7 @@ tags:
 - 目前汉化内容大致可供游玩游戏内16周，大约5小时的游戏时间
 - 目前主要汉化对象为天海春香、如月千早、星井美希和四条贵音。请按此培育顺序进行试玩
 - 补丁适配安装全DLC目录1-14，ver1.07游戏版本，低版本或DLC安装不全可能会出现补丁未生效问题
-- 未经允许，严禁擅自外泄内测汉化补丁文件！
+- 未经允许，严禁擅自外泄内测汉化补丁文件和Patch镜像！
 
 ## 测试说明
 
@@ -65,7 +65,8 @@ tags:
 
 ### 2 准备目录
 
-新建一个全英文名称文件夹，注意文件夹前缀目录依然是全英文，不要带有中文或全角字符。如`G:\IMAS-OFA-TLP\ImasOFAProject\Patch\PatchToARC`
+新建一个全英文名称文件夹，注意文件夹前缀目录依然是全英文，不要带有中文或全角字符。
+如`G:\IMAS-OFA-TLP\ImasOFAProject\Patch\PatchToARC`
 
 在文件夹内新建4个目录
 
@@ -126,9 +127,9 @@ tags:
 - _patch.arc.edat
 - _patch.bin.edat
 
-和`patched_dlc`目录中的所有文件覆盖硬盘安装目录的EDAT文件
+和`patched_dlc`目录中的所有文件覆盖硬盘安装目录的EDAT文件。此时你已经完成偶像大师-OFA全部汉化Patch操作。
 
-
+启动RPCS3或PS3实机，进入游戏，如果UI和文本正常显示中文即代表汉化成功。
 
 
 ### 补丁文件SHA1哈希
