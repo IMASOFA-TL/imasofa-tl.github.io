@@ -52,3 +52,9 @@ gantt
 {% include list.html component="card" data="projects" filters="group: featured" %}
 
 {% include section.html %}
+
+## 补丁教程
+
+{% include list.html data="posts" component="post-excerpt" %}
+
+{% include section.html %}
