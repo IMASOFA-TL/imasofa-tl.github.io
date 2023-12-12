@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-12-12T14:48:07+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化筹备组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">偶像大师-OFA DISC版本 Patch说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC版本 Patch说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2023-12-12T14:46:08+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<p>偶像大师-OFA DISC 汉化Patch说明</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-12-12T15:05:27+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化筹备组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">偶像大师-OFA DISC版本 Patch说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC版本 Patch说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2023-12-12T15:03:52+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<p>偶像大师-OFA DISC 汉化Patch说明</p>
 
 <h2 id="补丁说明">补丁说明</h2>
 
@@ -8,7 +8,7 @@
   <li>目前汉化内容大致可供游玩游戏内16周，大约5小时的游戏时间</li>
   <li>目前主要汉化对象为天海春香、如月千早、星井美希和四条贵音。请按此培育顺序进行试玩</li>
   <li>补丁适配安装全DLC目录1-14，ver1.07游戏版本，低版本或DLC安装不全可能会出现补丁未生效问题</li>
-  <li>未经允许，严禁擅自外泄内测汉化补丁文件！</li>
+  <li>未经允许，严禁擅自外泄内测汉化补丁文件和Patch镜像！</li>
 </ul>
 
 <h2 id="测试说明">测试说明</h2>
@@ -72,7 +72,8 @@
 
 <h3 id="2-准备目录">2 准备目录</h3>
 
-<p>新建一个全英文名称文件夹，注意文件夹前缀目录依然是全英文，不要带有中文或全角字符。如<code class="language-plaintext highlighter-rouge">G:\IMAS-OFA-TLP\ImasOFAProject\Patch\PatchToARC</code></p>
+<p>新建一个全英文名称文件夹，注意文件夹前缀目录依然是全英文，不要带有中文或全角字符。
+如<code class="language-plaintext highlighter-rouge">G:\IMAS-OFA-TLP\ImasOFAProject\Patch\PatchToARC</code></p>
 
 <p>在文件夹内新建4个目录</p>
 
@@ -131,8 +132,10 @@
   <li>_patch.bin.edat</li>
 </ul>
 
-<p>和<code class="language-plaintext highlighter-rouge">patched_dlc</code>目录中的所有文件覆盖硬盘安装目录的EDAT文件</p>
+<p>和<code class="language-plaintext highlighter-rouge">patched_dlc</code>目录中的所有文件覆盖硬盘安装目录的EDAT文件。此时你已经完成偶像大师-OFA全部汉化Patch操作。</p>
+
+<p>启动RPCS3或PS3实机，进入游戏，如果UI和文本正常显示中文即代表汉化成功。</p>
 
 <h3 id="补丁文件sha1哈希">补丁文件SHA1哈希</h3>
 
-<p>NULL</p>]]></content><author><name>Aaron_nep</name></author><category term="Archive" /><summary type="html"><![CDATA[偶像大师-OFA DISC 汉化Patch说明]]></summary></entry></feed>
+<p>NULL</p>]]></content><author><name>Aaron_nep</name></author><category term="Tutorial" /><summary type="html"><![CDATA[偶像大师-OFA DISC 汉化Patch说明]]></summary></entry></feed>
