@@ -44,7 +44,7 @@ tags:
 
 - EDAT文件
 
-    在`dev_hdd0/game/BLJS10260/USRDIR`下，应有如下文件
+  在`dev_hdd0/game/BLJS10260/USRDIR`下，应有如下文件
 
   - _patch.arc.edat
   - _patch.bin.edat
@@ -66,6 +66,7 @@ tags:
 ### 2 准备目录
 
 新建一个全英文名称文件夹，注意文件夹前缀目录依然是全英文，不要带有中文或全角字符。
+
 如`G:\IMAS-OFA-TLP\ImasOFAProject\Patch\PatchToARC`
 
 在文件夹内新建4个目录
@@ -77,11 +78,11 @@ tags:
 
 复制群内发布的补丁执行程序`imas.exe, Imas-Archive.exe`到本目录
 
-复制群内发布的补丁压缩包`patch_main.zip, patch_dlc.zip`
+复制群内发布的补丁压缩包`patch_main.zip, patch_dlc.zip`到本目录
 
 复制edat加解密程序`make_npdata.exe`到本目录
 
-复制批处理脚本`patch_dlc.bat，patch_main_disc.bat`到本目录
+复制批处理脚本`patch_dlc.bat, patch_main_disc.bat`到本目录
 
 将步骤1中的`HDD DISC文件`复制到`original`目录
 
@@ -109,7 +110,7 @@ tags:
 
 ### 运行批处理文件
 
-执行批处理脚本`patch_dlc.bat，patch_main_disc.bat`，不报错的情况下会在两个`patch`目录中得到汉化后的游戏文件
+按序依次执行批处理脚本`patch_main_disc.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件
 
 
 
@@ -122,7 +123,9 @@ tags:
 - disc.arc
 - disc.bin
 
-覆盖游戏安装目录的HDD DISC文件；将
+覆盖游戏安装目录的HDD DISC文件；
+
+将`patched`目录中的
 
 - _patch.arc.edat
 - _patch.bin.edat
