@@ -56,6 +56,7 @@ footer-dark: false
 
 {% include portrait.html lookup="22" style="small" %}
 {% include portrait.html lookup="瑟雭" style="small" %}
+{% include portrait.html lookup="津渡" style="small" %}
 {% include portrait.html lookup="Swift_Xp" style="small" %}
 {% include portrait.html lookup="吉良吉影" style="small" %}
 {% include portrait.html lookup="Aaron_nep" style="small" %}
