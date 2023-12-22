@@ -62,6 +62,5 @@ footer-dark: false
 {% include portrait.html lookup="Aaron_nep" style="small" %}
 {% include portrait.html lookup="无敌林克" style="small" %}
 {% include portrait.html lookup="海" style="small" %}
-{% include portrait.html lookup="viola" style="small" %}
 
 {% include section.html %}
