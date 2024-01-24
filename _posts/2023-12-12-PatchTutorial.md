@@ -5,16 +5,32 @@ tags:
   - Tutorial
 ---
 
-偶像大师-OFA DISC 汉化Patch说明
+# 偶像大师-OFA DISC 汉化Patch说明
+
+本教程目前面向汉化组成员，用于内部测试。
+
+## 目录
+- [补丁说明](#%E8%A1%A5%E4%B8%81%E8%AF%B4%E6%98%8E)
+- [测试说明](#%E6%B5%8B%E8%AF%95%E8%AF%B4%E6%98%8E)
+- [DISC补丁说明](#disc%E8%A1%A5%E4%B8%81%E8%AF%B4%E6%98%8E)
+  - [1. 安装原版镜像游戏](#1-%E5%AE%89%E8%A3%85%E5%8E%9F%E7%89%88%E9%95%9C%E5%83%8F%E6%B8%B8%E6%88%8F)
+  - [2 准备目录](#2-%E5%87%86%E5%A4%87%E7%9B%AE%E5%BD%95)
+  - [3. 运行批处理文件](#3-%E8%BF%90%E8%A1%8C%E6%89%B9%E5%A4%84%E7%90%86%E6%96%87%E4%BB%B6)
+  - [4. 覆盖原文件](#4-%E8%A6%86%E7%9B%96%E5%8E%9F%E6%96%87%E4%BB%B6)
+  - [5. EBOOT Patch*](#5-eboot-patch)
+    - [注意](#%E6%B3%A8%E6%84%8F)
+  - [补丁文件SHA1哈希](#%E8%A1%A5%E4%B8%81%E6%96%87%E4%BB%B6sha1%E5%93%88%E5%B8%8C)
+
+
 
 ## 补丁说明
 
-- 本教程目前面向汉化组内部成员用于测试
 - 目前补丁暂时只支持汉化DISC版本游戏
 - 目前汉化内容大致可供游玩游戏内16周，大约5小时的游戏时间
 - 目前主要汉化对象为天海春香、如月千早、星井美希和四条贵音。请按此培育顺序进行试玩
 - 补丁适配安装全DLC目录1-14，ver1.07游戏版本，低版本或DLC安装不全可能会出现补丁未生效问题
 - 未经允许，严禁擅自外泄内测汉化补丁文件和Patch镜像！
+- RPCS3建议不修改任何画面设置，已证实调整画面和滤镜设置可能导致游戏贴图渲染错误。
 
 ## 测试说明
 
@@ -108,13 +124,13 @@ tags:
 
 ![originaldlc_folder](/images/originaldlc_folder.jpg)
 
-### 运行批处理文件
+### 3. 运行批处理文件
 
-按序依次执行批处理脚本`patch_main_disc.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件
+按序依次执行（当前用户，无需开启管理员权限）批处理脚本`patch_main_disc.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件
 
 
 
-### 覆盖原文件
+### 4. 覆盖原文件
 
 将`patched`目录中的
 
@@ -133,6 +149,28 @@ tags:
 和`patched_dlc`目录中的所有文件覆盖硬盘安装目录的EDAT文件。此时你已经完成偶像大师-OFA全部汉化Patch操作。
 
 启动RPCS3或PS3实机，进入游戏，如果UI和文本正常显示中文即代表汉化成功。
+
+### 5. EBOOT Patch*
+
+> EBOOT Patch为可选Patch，针对部分系统UI内容进行汉化，PS3实机需要自行进行重签名，建议RPCS3测试进行此步操作。
+>
+> 汉化前：
+>
+> ![AfterEPatch](/images/AfterEPatch.jpg)
+>
+> 汉化后
+>
+> ![BeforeEPatch](/images/AfterEPatch.jpg)
+
+- 重命名dev_hdd0/game/BLJS10260/USRDIR/ 下的EBOOT.BIN为EBOOT.BIN.BAK 以备份
+- 复制本目录下的EBOOT.BIN，粘贴到dev_hdd0/game/BLJS10260/USRDIR/目录下
+- 重启游戏
+
+#### 注意
+
+- EBOOT Patch目前仅支持RPCS3，PS3实机需要自行进行重签名。
+- 替换后RPCS3会重建SPU Cache，第一次加载可能较慢，且可能有贴图错误。
+
 
 
 ### 补丁文件SHA1哈希
