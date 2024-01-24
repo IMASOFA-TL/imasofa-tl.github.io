@@ -156,13 +156,13 @@ tags:
 >
 > 汉化前：
 >
-> ![AfterEPatch](/images/AfterEPatch.jpg)
+> ![BeforeEPatch](/images/BeforeEPatch.jpg)
 >
 > 汉化后
 >
-> ![BeforeEPatch](/images/AfterEPatch.jpg)
+> ![AfterEPatch](/images/AfterEPatch.jpg)
 
-- 重命名dev_hdd0/game/BLJS10260/USRDIR/ 下的EBOOT.BIN为EBOOT.BIN.BAK 以备份
+- 将dev_hdd0/game/BLJS10260/USRDIR/下的EBOOT.BIN重命名为EBOOT.BIN.BAK 以备份
 - 复制本目录下的EBOOT.BIN，粘贴到dev_hdd0/game/BLJS10260/USRDIR/目录下
 - 重启游戏
 
