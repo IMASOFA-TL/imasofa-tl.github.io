@@ -55,6 +55,7 @@ footer-dark: false
   type="link"
   text="QQ群号"
   tooltip="591676099"
+  link="https://qm.qq.com/cgi-bin/qm/qr?k=MV4MSA-1iFosTIQjMXnwP2pEyhDX2QPE&jump_from=webapi&authKey=01qQEFY8b2ykJ5YO8KpranJTlx1CI4PVRuxc2Oq//w2d4dz90E0gE9MwBY/gzbd6"
 %}
 {%
   include button.html
