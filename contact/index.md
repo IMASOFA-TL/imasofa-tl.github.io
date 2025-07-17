@@ -11,7 +11,7 @@ footer-dark: false
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-偶像大师OFA汉化筹备组现在拟招募人手进行IM@S-OFA的汉化立项，要求愿意听从统一安排，
+偶像大师OFA汉化组现在拟招募人手进行IM@S-OFA的汉化，要求愿意听从统一安排，
 能够按时按量完成对应的任务，混子、投机者勿扰
 
 ### 我们的需求

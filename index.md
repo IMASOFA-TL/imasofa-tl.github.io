@@ -16,7 +16,7 @@ redirect_from:
 
 《偶像大师 One For All》（偶像大师 全力以赴，日语：アイドルマスター ワンフォーオール，英语：THE iDOLM@STER ONE FOR ALL）是万代南梦宫（Bandai Namco）于2014年5月15日发售的PS3游戏。其游戏内容与前作《偶像大师2》相似，但作了一些改进和更动，让玩家可以培育游戏中765事务所的所有偶像。
 
-本网站为《偶像大师 One For All》简体中文汉化项目筹备主页。
+本网站为《偶像大师 One For All》简体中文汉化项目主页。
 
 {% include section.html %}
 
@@ -52,7 +52,7 @@ redirect_from:
 {%
   include button.html
   link="team"
-  text="筹备成员"
+  text="汉化组员"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -77,7 +77,7 @@ redirect_from:
 {%
   include button.html
   link="contact"
-  text="加入筹备群"
+  text="加入测试群"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"

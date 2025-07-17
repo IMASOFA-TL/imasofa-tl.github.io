@@ -8,4 +8,4 @@ links:
     home-page: about:blank
 ---
 
-偶像大师OFA募集UI美工
+偶像大师OFA汉化组UI美工，高级翻译

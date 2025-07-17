@@ -1,6 +1,6 @@
 ---
 title: 偶像大师-OFA DISC版本 Patch说明
-author: Aaron_nep
+author: AaronP
 tags:
   - Tutorial
 ---
