@@ -1,5 +1,5 @@
 ---
-title: 募集成员
+title: 汉化组成员
 nav:
   order: 3
   tooltip: 成员信息
@@ -9,7 +9,7 @@ header-dark: false
 footer-dark: false
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}已募集成员
+# {% include icon.html icon="fa-solid fa-users" %}成员信息
 
 偶像大师OFA汉化组成员信息
 
