@@ -1,11 +1,11 @@
 ---
-title: 偶像大师-OFA DISC版本 Patch说明
+title: 偶像大师-OFA DISC 汉化补丁说明
 author: AaronP
 tags:
   - Tutorial
 ---
 
-# 偶像大师-OFA DISC 汉化Patch说明
+# 偶像大师-OFA DISC 汉化补丁说明
 
 本教程为偶像大师OFA汉化补丁操作步骤说明。
 
@@ -14,34 +14,132 @@ tags:
 [微云分流地址](https://share.weiyun.com/SDJaXOmH)
 
 ## 目录
-- [补丁说明](#%E8%A1%A5%E4%B8%81%E8%AF%B4%E6%98%8E)
-- [测试说明](#%E6%B5%8B%E8%AF%95%E8%AF%B4%E6%98%8E)
-- [DISC补丁说明](#disc%E8%A1%A5%E4%B8%81%E8%AF%B4%E6%98%8E)
-  - [1. 安装原版镜像游戏](#1-%E5%AE%89%E8%A3%85%E5%8E%9F%E7%89%88%E9%95%9C%E5%83%8F%E6%B8%B8%E6%88%8F)
-  - [2 准备目录](#2-%E5%87%86%E5%A4%87%E7%9B%AE%E5%BD%95)
-  - [3. 运行批处理文件](#3-%E8%BF%90%E8%A1%8C%E6%89%B9%E5%A4%84%E7%90%86%E6%96%87%E4%BB%B6)
-  - [4. 覆盖原文件](#4-%E8%A6%86%E7%9B%96%E5%8E%9F%E6%96%87%E4%BB%B6)
-  - [5. EBOOT Patch*](#5-eboot-patch)
-    - [注意](#%E6%B3%A8%E6%84%8F)
-  - [补丁文件SHA1哈希](#%E8%A1%A5%E4%B8%81%E6%96%87%E4%BB%B6sha1%E5%93%88%E5%B8%8C)
+
+- [偶像大师-OFA DISC 汉化补丁说明](#%E5%81%B6%E5%83%8F%E5%A4%A7%E5%B8%88-ofa-disc-%E6%B1%89%E5%8C%96%E8%A1%A5%E4%B8%81%E8%AF%B4%E6%98%8E)
+  - [目录](#%E7%9B%AE%E5%BD%95)
+  - [全部所需文件SHA1哈希](#%E5%85%A8%E9%83%A8%E6%89%80%E9%9C%80%E6%96%87%E4%BB%B6sha1%E5%93%88%E5%B8%8C)
+    - [模拟器&固件](#%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%9B%BA%E4%BB%B6)
+    - [汉化补丁](#%E6%B1%89%E5%8C%96%E8%A1%A5%E4%B8%81)
+    - [原游戏镜像（仅供参考）](#%E5%8E%9F%E6%B8%B8%E6%88%8F%E9%95%9C%E5%83%8F%E4%BB%85%E4%BE%9B%E5%8F%82%E8%80%83)
+  - [补丁及游戏说明](#%E8%A1%A5%E4%B8%81%E5%8F%8A%E6%B8%B8%E6%88%8F%E8%AF%B4%E6%98%8E)
+  - [RPCS3 原版游戏安装说明](#rpcs3-%E5%8E%9F%E7%89%88%E6%B8%B8%E6%88%8F%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E)
+    - [固件安装&游戏设置](#%E5%9B%BA%E4%BB%B6%E5%AE%89%E8%A3%85%E6%B8%B8%E6%88%8F%E8%AE%BE%E7%BD%AE)
+    - [安装游戏](#%E5%AE%89%E8%A3%85%E6%B8%B8%E6%88%8F)
+  - [DISC补丁说明](#disc%E8%A1%A5%E4%B8%81%E8%AF%B4%E6%98%8E)
+    - [1. 安装原版镜像游戏](#1-%E5%AE%89%E8%A3%85%E5%8E%9F%E7%89%88%E9%95%9C%E5%83%8F%E6%B8%B8%E6%88%8F)
+    - [2. 准备目录](#2-%E5%87%86%E5%A4%87%E7%9B%AE%E5%BD%95)
+    - [3. 运行批处理文件](#3-%E8%BF%90%E8%A1%8C%E6%89%B9%E5%A4%84%E7%90%86%E6%96%87%E4%BB%B6)
+    - [4. 覆盖原文件](#4-%E8%A6%86%E7%9B%96%E5%8E%9F%E6%96%87%E4%BB%B6)
+    - [5. EBOOT Patch](#5-eboot-patch)
+      - [EBOOT Patch注意事项](#eboot-patch%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
+    - [6. 游戏内设置](#6-%E6%B8%B8%E6%88%8F%E5%86%85%E8%AE%BE%E7%BD%AE)
 
 
 
-## 补丁说明
+## 全部所需文件SHA1哈希
 
-- 目前补丁暂时只支持汉化DISC版本游戏
-- 目前汉化内容大致可供游玩游戏内16周，大约5小时的游戏时间
-- 目前主要汉化对象为天海春香、如月千早、星井美希和四条贵音。请按此培育顺序进行试玩
+请预先准备好原游戏镜像，并下载汉化组提供的汉化补丁文件和打包程序。以下为本教程使用的文件的SHA1哈希。其中游戏镜像部分哈希仅供参考。
+
+### 模拟器&固件
+
+- PS3UPDAT.PUP：093F8698B54B78DCB701DE2043F82639DE51D63B
+- rpcs3-v0.0.29-15711-e26d4e17_win64.7z：241B7D7AB81B5F990939A7115E6DD8EB08831FCC
+
+### 汉化补丁
+
+- patch_main.zip：NULL
+- patch_dlc.zip：NULL
+- EBOOT.BIN：8FEAC512508BCA93F1CBD32F458FCF40A0C976B6
+- Imas-Archive.exe：5E944D02568B07D9C997A691A7BDFE3B8CCCA236
+- imas.exe：E725CC5A43B088575F3E6DCCD0A33932D970766F
+- make_npdata.exe：BC751F3EF4DEA8E36CD62BB9A7B7E0519F653005
+- patch_main_disc.bat：42B901EE6A3FDD027C62810B8B268D7F0BE1052B
+- patch_dlc.bat：92A0BA7EDC916FEDB4441F6BA263C771545E0AFA
+
+### 原游戏镜像（仅供参考）
+
+- THE iDOLM@STER One For All [BLJS10260].iso：296E83EEF8732FE15CBA8F70229AB37870905A0B (4.96 GB)
+- THE iDOLM@STER One For All Patch 1.07.pkg：3AE25C229C86D18BBD13024C495616887AD55FC4 (220 MB)
+- THE iDOLM@STER One For All [BLJS10260][DLC].pkg：BB646967F05019AE90DC9551A32D1216CE79F0D6 (4.19 GB)
+
+
+## 补丁及游戏说明
+
+- 目前补丁支持汉化DISC版本游戏
+- 补丁汉化内容涵盖**完整主线和全DLC Mail内容**
 - 补丁适配安装全DLC目录1-14，ver1.07游戏版本，低版本或DLC安装不全可能会出现补丁未生效问题
-- RPCS3建议不修改任何画面设置，已证实调整画面和滤镜设置可能导致游戏贴图渲染错误。
-
-## 测试说明
-
-- Patch操作仅支持在Windows10 x64及以上版本操作系统上进行，可能需要.net core3.1 环境，可根据提示自动安装
-- 强烈建议组内成员试玩时全程录制，跟踪存档
-- 遇到已汉化人物的未汉化文本时，记录信息，并根据录像在群中提供报告
-- 遇到错别字，语病或语义错误，请一并记录反馈
+- Patch升级操作仅支持在Windows10 x64及以上版本操作系统上进行，可能需要`.net core3.1`环境，可根据提示自动安装
 - 请使用RPCS3或者PS3实机运行游戏
+- RPCS3建议不修改画面设置，已证实调整画面和滤镜设置可能导致游戏贴图渲染错误。
+- RPCS3建议使用**PS3/4/5或PlayStation兼容手柄**，**有线**连接PC进行游戏，**不要使用**Xbox或类Xbox键位手柄，**不要无线连接PC**
+
+
+
+## RPCS3 原版游戏安装说明
+
+PS3实机玩家请按照自己固件的安装方式进行安装。熟悉RPCS3的玩家可以仅看此节中的游戏设置部分的内容后跳转到下一章节。
+
+### 固件安装&游戏设置
+
+解压`rpcs3-v0.0.29-15711-e26d4e17_win64.7z`，模拟器目录内双击`rpcs3.exe`启动模拟器，关闭初次启动的欢迎界面，点击左上角 File -> Install Firmware，选择提供的固件文件 `PS3UPDAT.PUP`， RPCS3 将自动编译安装PS3固件，这个过程耗时视CPU性能决定，耗时3-15分钟不等。
+
+![intsall-firmware](/images/intsall-firmware.jpg)
+
+
+由于不同渲染设置可能造成图像问题，且不同地域的手柄○/× 按钮功能不同，建议的RPCS3点击Configuration -> CPU ，逐个对照下列设置(没提供图示的请保持默认)。
+
+- CPU：LLVM动态重编译
+
+![CPU](/images/CPU.jpg)
+
+- GPU：调整渲染器和分辨率，图形设备选择PC的独立显卡
+
+![GPU](/images/GPU.jpg)
+
+- Audio：采用兼容性最强的立体声设置
+
+![Audio](/images/Audio.jpg)
+
+- System：地区请选择Japan, 确认按键选择circle (○键)
+
+![System](/images/System.jpg)
+
+- Advanced：高级设置
+
+![Advanced](/images/Advanced.jpg)
+
+- Emulator：模拟器运行设置，关闭部分信息提示，开启全屏游戏，提升沉浸度
+
+![Emulator](/images/Emulator.jpg)
+
+- GUI：关闭模拟器自动更新，不建议更新模拟器
+
+![GUI](/images/GUI.jpg)
+
+- 手柄调试：RPCS3点击Configuration -> Pads
+
+![pads1](/images/pads1.png)
+
+Handlers 选择自己插入的手柄类型(PS3手柄 -> DualShock3, PS4及PlayStation4兼容手柄 -> DualShock4, PS5手柄 DualSense)。推动左右摇杆，右下角可看到感应点，检测手柄有效性。
+
+![pads2](/images/pads2.jpg)
+
+
+### 安装游戏
+
+
+解压原游戏镜像`THE iDOLM@STER One For All [BLJS10260].iso`，将解压得到的完整文件夹复制到模拟器目录内的`/games/`目录下。然后单击模拟器界面的refresh按钮，此时偶像大师OFA原始镜像完成安装，界面中出现游戏。
+
+![refresh](/images/refresh.jpg)
+
+
+
+点击左上角 File -> Intsall Packages/Raps/Edats，选择版本更新文件`THE iDOLM@STER One For All Patch 1.07.pkg` 安装游戏的版本更新，此时游戏的Version列将更新为`01.07`，然后再次点击点击左上角 File -> Intsall Packages/Raps/Edats，选择DLC文件`THE iDOLM@STER One For All [BLJS10260][DLC].pkg`，安装完整DLC。(如果自己的镜像是1-9，10-14两个DLC pkg文件，则按顺序依次安装两个pkg即可)
+
+![install-pkg](/images/install-pkg.jpg)
+
+
+此时你已经完整原版游戏的安装。
 
 
 ## DISC补丁说明
@@ -50,7 +148,7 @@ tags:
 
 ### 1. 安装原版镜像游戏
 
-安装原版DISC镜像（BLJS10260），安装ver1.07升级包，1-14全DLC目录。
+参照前文章节安装好原版DISC镜像（BLJS10260），安装ver1.07升级包，1-14全DLC目录（这里假定你的游戏目录为`THE iDOLM@STER One For All [BLJS10260]`）
 
 - HDD DISC文件
 
@@ -60,6 +158,9 @@ tags:
   - hdd.bin
   - disc.arc
   - disc.bin
+
+  ![GAMEDIR](/images/GAMEDIR.jpg)
+
 
 - EDAT文件
 
@@ -82,7 +183,10 @@ tags:
   - _dlc13_107.arc.edat, _dlc13_107.bin.edat
   - _dlc14_107.arc.edat, _dlc14_107.bin.edat
 
-### 2 准备目录
+  ![HDDDIR](/images/HDDDIR.jpg)
+
+
+### 2. 准备目录
 
 新建一个全英文名称文件夹，注意文件夹前缀目录依然是全英文，不要带有中文或全角字符。
 
@@ -95,9 +199,9 @@ tags:
 - patched
 - patched_dlc
 
-复制群内发布的补丁执行程序`imas.exe, Imas-Archive.exe`到本目录
+复制发布的补丁执行程序`imas.exe, Imas-Archive.exe`到本目录
 
-复制群内发布的补丁压缩包`patch_main.zip, patch_dlc.zip`到本目录
+复制发布的补丁压缩包`patch_main.zip, patch_dlc.zip`到本目录
 
 复制edat加解密程序`make_npdata.exe`到本目录
 
@@ -129,33 +233,37 @@ tags:
 
 ### 3. 运行批处理文件
 
-按序依次执行（当前用户，无需开启管理员权限）批处理脚本`patch_main_disc.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件
+按序依次执行（当前用户，无需开启管理员权限）批处理脚本`patch_main_disc.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件。
 
+其中`patched`目录有6个文件，`patched_dlc`目录有28个文件
+
+![patched](/images/patched.jpg)
+
+![patched_dlc](/images/patched_dlc.jpg)
 
 
 ### 4. 覆盖原文件
 
-将`patched`目录中的
+将`patched`目录中的以下4个文件
 
 - hdd.arc
 - hdd.bin
 - disc.arc
 - disc.bin
 
-覆盖游戏安装目录的HDD DISC文件；
+覆盖模拟器游戏安装目录`games/THE iDOLM@STER One For All [BLJS10260]/PS3_GAME/USRDIR`的HDD DISC文件。(注意不包括_patch.arc.edat和_patch.bin.edat)
 
-将`patched`目录中的
+
+再将`patched`目录中的剩下的以下2个文件
 
 - _patch.arc.edat
 - _patch.bin.edat
 
-和`patched_dlc`目录中的所有文件覆盖硬盘安装目录的EDAT文件。此时你已经完成偶像大师-OFA全部汉化Patch操作。
+和`patched_dlc`目录中的所有文件覆盖模拟器硬盘安装目录`dev_hdd0/game/BLJS10260/USRDIR`的EDAT文件。(注意这里复制了patched目录中剩余的2个文件和patched_dlc中的所有文件到硬盘安装目录)
 
-启动RPCS3或PS3实机，进入游戏，如果UI和文本正常显示中文即代表汉化成功。
+### 5. EBOOT Patch
 
-### 5. EBOOT Patch*
-
-> EBOOT Patch为可选Patch，针对部分系统UI内容进行汉化，PS3实机需要自行进行重签名，建议RPCS3测试进行此步操作。
+> EBOOT Patch针对部分系统UI HardCode内容进行汉化，仅需要进行一次，后续升级除非提供新的EBOOT.BIN，否则不再需要进行此步操作。
 >
 > 汉化前：
 >
@@ -167,16 +275,31 @@ tags:
 
 - 将dev_hdd0/game/BLJS10260/USRDIR/下的EBOOT.BIN重命名为EBOOT.BIN.BAK 以备份
 - 复制本目录下的EBOOT.BIN，粘贴到dev_hdd0/game/BLJS10260/USRDIR/目录下
-- 重启游戏
-
-#### 注意
-
-- EBOOT Patch目前仅支持RPCS3，PS3实机需要自行进行重签名。
-- 替换后RPCS3会重建SPU Cache，第一次加载可能较慢，且可能有贴图错误。
 
 
+此时你已经完成偶像大师-OFA全部汉化Patch操作。
 
-### 补丁文件SHA1哈希
 
-NULL
+#### EBOOT Patch注意事项
+
+- PS3实机在进行EBOOT Patch时需要自行进行重签名。
+- 替换后RPCS3会重建SPU Cache，第一次加载可能较慢，且可能有贴图错误。游戏一段时间后即可恢复正常。
+
+
+
+### 6. 游戏内设置
+
+
+右键Game List中的偶像大师OFA游戏行，展开启动菜单，单击Boot即可进入游戏，如果UI和文本正常显示中文即代表汉化成功。
+
+![Boot](/images/Boot.jpg)
+
+
+由于游戏存档提示时的提示信息将会调用SYSTEM固件的字体，因此会出现固件提示信息汉字缺失现象，因此**强烈推荐开启游戏内的自动存档，让游戏自动按周保存存档**。
+
+![save](/images/save.jpg)
+
+
+
+
 
