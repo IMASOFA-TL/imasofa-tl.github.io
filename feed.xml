@@ -1,71 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-18T08:25:14+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">偶像大师-OFA DISC 汉化补丁说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC 汉化补丁说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2025-07-18T08:24:36+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<h1 id="偶像大师-ofa-disc-汉化补丁说明">偶像大师-OFA DISC 汉化补丁说明</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-18T08:56:28+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">RPCS3游戏安装说明</title><link href="/2025/07/18/InstallTutorial.html" rel="alternate" type="text/html" title="RPCS3游戏安装说明" /><published>2025-07-18T00:00:00+00:00</published><updated>2025-07-18T08:55:49+00:00</updated><id>/2025/07/18/InstallTutorial</id><content type="html" xml:base="/2025/07/18/InstallTutorial.html"><![CDATA[<h1 id="rpcs3游戏安装说明">RPCS3游戏安装说明</h1>
 
-<p>本教程为偶像大师OFA汉化补丁操作步骤说明。</p>
+<p>本教程为RPCS3游戏安装操作步骤说明。</p>
 
-<p>如遇到问题、希望进行反馈、亦或是有什么建议，请加入测试QQ群：591676099</p>
+<p>如遇到问题、希望进行反馈、亦或是有任何建议，请加入测试QQ群：591676099</p>
 
 <p><a href="https://share.weiyun.com/SDJaXOmH">微云分流地址</a></p>
 
 <h2 id="目录">目录</h2>
 
-<ul>
-  <li><a href="#%E5%81%B6%E5%83%8F%E5%A4%A7%E5%B8%88-ofa-disc-%E6%B1%89%E5%8C%96%E8%A1%A5%E4%B8%81%E8%AF%B4%E6%98%8E">偶像大师-OFA DISC 汉化补丁说明</a>
-    <ul>
-      <li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
-      <li><a href="#%E5%85%A8%E9%83%A8%E6%89%80%E9%9C%80%E6%96%87%E4%BB%B6sha1%E5%93%88%E5%B8%8C">全部所需文件SHA1哈希</a>
-        <ul>
-          <li><a href="#%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%9B%BA%E4%BB%B6">模拟器&amp;固件</a></li>
-          <li><a href="#%E6%B1%89%E5%8C%96%E8%A1%A5%E4%B8%81">汉化补丁</a></li>
-          <li><a href="#%E5%8E%9F%E6%B8%B8%E6%88%8F%E9%95%9C%E5%83%8F%E4%BB%85%E4%BE%9B%E5%8F%82%E8%80%83">原游戏镜像（仅供参考）</a></li>
-        </ul>
-      </li>
-      <li><a href="#%E8%A1%A5%E4%B8%81%E5%8F%8A%E6%B8%B8%E6%88%8F%E8%AF%B4%E6%98%8E">补丁及游戏说明</a></li>
-      <li><a href="#rpcs3-%E5%8E%9F%E7%89%88%E6%B8%B8%E6%88%8F%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E">RPCS3 原版游戏安装说明</a>
-        <ul>
-          <li><a href="#%E5%9B%BA%E4%BB%B6%E5%AE%89%E8%A3%85%E6%B8%B8%E6%88%8F%E8%AE%BE%E7%BD%AE">固件安装&amp;游戏设置</a></li>
-          <li><a href="#%E5%AE%89%E8%A3%85%E6%B8%B8%E6%88%8F">安装游戏</a></li>
-        </ul>
-      </li>
-      <li><a href="#disc%E8%A1%A5%E4%B8%81%E8%AF%B4%E6%98%8E">DISC补丁说明</a>
-        <ul>
-          <li><a href="#1-%E5%AE%89%E8%A3%85%E5%8E%9F%E7%89%88%E9%95%9C%E5%83%8F%E6%B8%B8%E6%88%8F">1. 安装原版镜像游戏</a></li>
-          <li><a href="#2-%E5%87%86%E5%A4%87%E7%9B%AE%E5%BD%95">2. 准备目录</a></li>
-          <li><a href="#3-%E8%BF%90%E8%A1%8C%E6%89%B9%E5%A4%84%E7%90%86%E6%96%87%E4%BB%B6">3. 运行批处理文件</a></li>
-          <li><a href="#4-%E8%A6%86%E7%9B%96%E5%8E%9F%E6%96%87%E4%BB%B6">4. 覆盖原文件</a></li>
-          <li><a href="#5-eboot-patch">5. EBOOT Patch</a>
-            <ul>
-              <li><a href="#eboot-patch%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">EBOOT Patch注意事项</a></li>
-            </ul>
-          </li>
-          <li><a href="#6-%E6%B8%B8%E6%88%8F%E5%86%85%E8%AE%BE%E7%BD%AE">6. 游戏内设置</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
 <h2 id="全部所需文件sha1哈希">全部所需文件SHA1哈希</h2>
 
-<p>请预先准备好原游戏镜像，并下载汉化组提供的汉化补丁文件和打包程序。以下为本教程使用的文件的SHA1哈希。其中游戏镜像部分哈希仅供参考。</p>
+<p>请预先准备好原游戏镜像，以下为本教程使用的文件的SHA1哈希。其中游戏镜像部分哈希仅供参考。</p>
 
 <h3 id="模拟器固件">模拟器&amp;固件</h3>
 
 <ul>
   <li>PS3UPDAT.PUP：093F8698B54B78DCB701DE2043F82639DE51D63B</li>
   <li>rpcs3-v0.0.29-15711-e26d4e17_win64.7z：241B7D7AB81B5F990939A7115E6DD8EB08831FCC</li>
-</ul>
-
-<h3 id="汉化补丁">汉化补丁</h3>
-
-<ul>
-  <li>patch_main.zip：NULL</li>
-  <li>patch_dlc.zip：NULL</li>
-  <li>EBOOT.BIN：8FEAC512508BCA93F1CBD32F458FCF40A0C976B6</li>
-  <li>Imas-Archive.exe：5E944D02568B07D9C997A691A7BDFE3B8CCCA236</li>
-  <li>imas.exe：E725CC5A43B088575F3E6DCCD0A33932D970766F</li>
-  <li>make_npdata.exe：BC751F3EF4DEA8E36CD62BB9A7B7E0519F653005</li>
-  <li>patch_main_disc.bat：42B901EE6A3FDD027C62810B8B268D7F0BE1052B</li>
-  <li>patch_dlc.bat：92A0BA7EDC916FEDB4441F6BA263C771545E0AFA</li>
 </ul>
 
 <h3 id="原游戏镜像仅供参考">原游戏镜像（仅供参考）</h3>
@@ -76,27 +27,24 @@
   <li>THE iDOLM@STER One For All [BLJS10260][DLC].pkg：BB646967F05019AE90DC9551A32D1216CE79F0D6 (4.19 GB)</li>
 </ul>
 
-<h2 id="补丁及游戏说明">补丁及游戏说明</h2>
+<h2 id="rpcs3说明">RPCS3说明</h2>
 
 <ul>
-  <li>目前补丁支持汉化DISC版本游戏</li>
-  <li>补丁汉化内容涵盖<strong>完整主线和全DLC Mail内容</strong></li>
-  <li>补丁适配安装全DLC目录1-14，ver1.07游戏版本，低版本或DLC安装不全可能会出现补丁未生效问题</li>
-  <li>Patch升级操作仅支持在Windows10 x64及以上版本操作系统上进行，可能需要<code class="language-plaintext highlighter-rouge">.net core3.1</code>环境，可根据提示自动安装</li>
-  <li>请使用RPCS3或者PS3实机运行游戏</li>
   <li>RPCS3建议不修改画面设置，已证实调整画面和滤镜设置可能导致游戏贴图渲染错误。</li>
   <li>RPCS3建议使用<strong>PS3/4/5或PlayStation兼容手柄</strong>，<strong>有线</strong>连接PC进行游戏，<strong>不要使用</strong>Xbox或类Xbox键位手柄，<strong>不要无线连接PC</strong></li>
 </ul>
 
 <h2 id="rpcs3-原版游戏安装说明">RPCS3 原版游戏安装说明</h2>
 
-<p>PS3实机玩家请按照自己固件的安装方式进行安装。熟悉RPCS3的玩家可以仅看此节中的游戏设置部分的内容后跳转到下一章节。</p>
+<p>PS3实机玩家请按照自己固件的安装方式进行安装。熟悉RPCS3的玩家可以仅看本文游戏设置部分的内容。</p>
 
 <h3 id="固件安装游戏设置">固件安装&amp;游戏设置</h3>
 
 <p>解压<code class="language-plaintext highlighter-rouge">rpcs3-v0.0.29-15711-e26d4e17_win64.7z</code>，模拟器目录内双击<code class="language-plaintext highlighter-rouge">rpcs3.exe</code>启动模拟器，关闭初次启动的欢迎界面，点击左上角 File -&gt; Install Firmware，选择提供的固件文件 <code class="language-plaintext highlighter-rouge">PS3UPDAT.PUP</code>， RPCS3 将自动编译安装PS3固件，这个过程耗时视CPU性能决定，耗时3-15分钟不等。</p>
 
-<p><img src="/images/intsall-firmware.jpg" alt="intsall-firmware" /></p>
+<p align="center">
+  <img src="https://imas-ofa.com/images/intsall-firmware.jpg" alt="intsall-firmware" style="width: 50%;" />
+</p>
 
 <p>由于不同渲染设置可能造成图像问题，且不同地域的手柄○/× 按钮功能不同，建议的RPCS3点击Configuration -&gt; CPU ，逐个对照下列设置(没提供图示的请保持默认)。</p>
 
@@ -113,7 +61,7 @@
 <p><img src="/images/GPU.jpg" alt="GPU" /></p>
 
 <ul>
-  <li>Audio：采用兼容性最强的立体声设置</li>
+  <li>Audio：采用兼容性最好的立体声设置</li>
 </ul>
 
 <p><img src="/images/Audio.jpg" alt="Audio" /></p>
@@ -146,7 +94,9 @@
   <li>手柄调试：RPCS3点击Configuration -&gt; Pads</li>
 </ul>
 
-<p><img src="/images/pads1.png" alt="pads1" /></p>
+<p align="center">
+  <img src="https://imas-ofa.com/images/pads1.png" alt="pads1" style="width: 100%;" />
+</p>
 
 <p>Handlers 选择自己插入的手柄类型(PS3手柄 -&gt; DualShock3, PS4及PlayStation4兼容手柄 -&gt; DualShock4, PS5手柄 DualSense)。推动左右摇杆，右下角可看到感应点，检测手柄有效性。</p>
 
@@ -156,13 +106,54 @@
 
 <p>解压原游戏镜像<code class="language-plaintext highlighter-rouge">THE iDOLM@STER One For All [BLJS10260].iso</code>，将解压得到的完整文件夹复制到模拟器目录内的<code class="language-plaintext highlighter-rouge">/games/</code>目录下。然后单击模拟器界面的refresh按钮，此时偶像大师OFA原始镜像完成安装，界面中出现游戏。</p>
 
-<p><img src="/images/refresh.jpg" alt="refresh" /></p>
+<p align="center">
+  <img src="https://imas-ofa.com/images/refresh.jpg" alt="refresh" style="width: 100%;" />
+</p>
 
 <p>点击左上角 File -&gt; Intsall Packages/Raps/Edats，选择版本更新文件<code class="language-plaintext highlighter-rouge">THE iDOLM@STER One For All Patch 1.07.pkg</code> 安装游戏的版本更新，此时游戏的Version列将更新为<code class="language-plaintext highlighter-rouge">01.07</code>，然后再次点击点击左上角 File -&gt; Intsall Packages/Raps/Edats，选择DLC文件<code class="language-plaintext highlighter-rouge">THE iDOLM@STER One For All [BLJS10260][DLC].pkg</code>，安装完整DLC。(如果自己的镜像是1-9，10-14两个DLC pkg文件，则按顺序依次安装两个pkg即可)</p>
 
-<p><img src="/images/install-pkg.jpg" alt="install-pkg" /></p>
+<p align="center">
+  <img src="https://imas-ofa.com/images/install-pkg.jpg" alt="install-pkg" style="width: 50%;" />
+</p>
 
-<p>此时你已经完整原版游戏的安装。</p>
+<p>此时你已经完成原版游戏的安装。接下来请参考<a href="https://imas-ofa.com/2023/12/12/PatchTutorial.html">汉化补丁说明</a>进行游戏汉化操作。</p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[RPCS3游戏安装说明]]></summary></entry><entry><title type="html">偶像大师-OFA DISC 汉化补丁说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC 汉化补丁说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2025-07-18T08:55:49+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<h1 id="偶像大师-ofa-disc-汉化补丁说明">偶像大师-OFA DISC 汉化补丁说明</h1>
+
+<p>本教程为偶像大师OFA汉化补丁操作步骤说明。</p>
+
+<p>如遇到问题、希望进行反馈、亦或是有任何建议，请加入测试QQ群：591676099</p>
+
+<p><a href="https://share.weiyun.com/SDJaXOmH">微云分流地址</a></p>
+
+<h2 id="目录">目录</h2>
+
+<h2 id="全部所需文件sha1哈希">全部所需文件SHA1哈希</h2>
+
+<p>请参照<a href="https://imas-ofa.com/2025-07-18-InstallTutorial.html">游戏安装说明</a>安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录，并下载汉化组提供的汉化补丁文件和打包程序。以下为本教程使用的文件的SHA1哈希。</p>
+
+<h3 id="汉化补丁">汉化补丁</h3>
+
+<ul>
+  <li>patch_main.zip：NULL （更新补丁请参考对应发布页哈希）</li>
+  <li>patch_dlc.zip：NULL （更新补丁请参考对应发布页哈希）</li>
+  <li>EBOOT.BIN：8FEAC512508BCA93F1CBD32F458FCF40A0C976B6</li>
+  <li>Imas-Archive.exe：5E944D02568B07D9C997A691A7BDFE3B8CCCA236</li>
+  <li>imas.exe：E725CC5A43B088575F3E6DCCD0A33932D970766F</li>
+  <li>make_npdata.exe：BC751F3EF4DEA8E36CD62BB9A7B7E0519F653005</li>
+  <li>patch_main_disc.bat：42B901EE6A3FDD027C62810B8B268D7F0BE1052B</li>
+  <li>patch_dlc.bat：92A0BA7EDC916FEDB4441F6BA263C771545E0AFA</li>
+</ul>
+
+<h2 id="补丁及游戏说明">补丁及游戏说明</h2>
+
+<ul>
+  <li>目前补丁支持汉化DISC版本游戏</li>
+  <li>补丁汉化内容涵盖<strong>完整主线和全DLC Mail内容</strong></li>
+  <li>补丁适配安装全DLC目录1-14，ver1.07游戏版本，低版本或DLC安装不全可能会出现补丁未生效问题</li>
+  <li>Patch升级操作仅支持在Windows10 x64及以上版本操作系统上进行，可能需要<code class="language-plaintext highlighter-rouge">.net core3.1</code>环境，可根据提示自动安装</li>
+  <li>请使用RPCS3或者PS3实机运行游戏</li>
+  <li>RPCS3建议不修改画面设置，已证实调整画面和滤镜设置可能导致游戏贴图渲染错误。</li>
+  <li>RPCS3建议使用<strong>PS3/4/5或PlayStation兼容手柄</strong>，<strong>有线</strong>连接PC进行游戏，<strong>不要使用</strong>Xbox或类Xbox键位手柄，<strong>不要无线连接PC</strong></li>
+</ul>
 
 <h2 id="disc补丁说明">DISC补丁说明</h2>
 
@@ -172,7 +163,7 @@
 
 <h3 id="1-安装原版镜像游戏">1. 安装原版镜像游戏</h3>
 
-<p>参照前文章节安装好原版DISC镜像（BLJS10260），安装ver1.07升级包，1-14全DLC目录（这里假定你的游戏目录为<code class="language-plaintext highlighter-rouge">THE iDOLM@STER One For All [BLJS10260]</code>）</p>
+<p>参照<a href="https://imas-ofa.com/2025-07-18-InstallTutorial.html">游戏安装说明</a>安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录（这里假定你的游戏目录为<code class="language-plaintext highlighter-rouge">THE iDOLM@STER One For All [BLJS10260]</code>）</p>
 
 <ul>
   <li>
@@ -326,4 +317,8 @@
 
 <p>由于游戏存档提示时的提示信息将会调用SYSTEM固件的字体，因此会出现固件提示信息汉字缺失现象，因此<strong>强烈推荐开启游戏内的自动存档，让游戏自动按周保存存档</strong>。</p>
 
-<p><img src="/images/save.jpg" alt="save" /></p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[偶像大师-OFA DISC 汉化补丁说明]]></summary></entry></feed>
+<p><img src="/images/save.jpg" alt="save" /></p>
+
+<h3 id="7-补丁升级">7. 补丁升级</h3>
+
+<p>汉化补丁支持兼容存档升级，发布更新修复问题的补丁时，请将步骤2目录中的补丁压缩包<code class="language-plaintext highlighter-rouge">patch_main.zip, patch_dlc.zip</code>更换为最新补丁，重复步骤3，4即可（直接覆盖旧版汉化游戏文件）</p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[偶像大师-OFA DISC 汉化补丁说明]]></summary></entry></feed>
