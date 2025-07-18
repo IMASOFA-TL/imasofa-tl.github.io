@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-18T08:56:28+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">RPCS3游戏安装说明</title><link href="/2025/07/18/InstallTutorial.html" rel="alternate" type="text/html" title="RPCS3游戏安装说明" /><published>2025-07-18T00:00:00+00:00</published><updated>2025-07-18T08:55:49+00:00</updated><id>/2025/07/18/InstallTutorial</id><content type="html" xml:base="/2025/07/18/InstallTutorial.html"><![CDATA[<h1 id="rpcs3游戏安装说明">RPCS3游戏安装说明</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-18T09:00:46+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">RPCS3游戏安装说明</title><link href="/2025/07/18/InstallTutorial.html" rel="alternate" type="text/html" title="RPCS3游戏安装说明" /><published>2025-07-18T00:00:00+00:00</published><updated>2025-07-18T09:00:11+00:00</updated><id>/2025/07/18/InstallTutorial</id><content type="html" xml:base="/2025/07/18/InstallTutorial.html"><![CDATA[<h1 id="rpcs3游戏安装说明">RPCS3游戏安装说明</h1>
 
 <p>本教程为RPCS3游戏安装操作步骤说明。</p>
 
@@ -42,9 +42,7 @@
 
 <p>解压<code class="language-plaintext highlighter-rouge">rpcs3-v0.0.29-15711-e26d4e17_win64.7z</code>，模拟器目录内双击<code class="language-plaintext highlighter-rouge">rpcs3.exe</code>启动模拟器，关闭初次启动的欢迎界面，点击左上角 File -&gt; Install Firmware，选择提供的固件文件 <code class="language-plaintext highlighter-rouge">PS3UPDAT.PUP</code>， RPCS3 将自动编译安装PS3固件，这个过程耗时视CPU性能决定，耗时3-15分钟不等。</p>
 
-<p align="center">
-  <img src="https://imas-ofa.com/images/intsall-firmware.jpg" alt="intsall-firmware" style="width: 50%;" />
-</p>
+<p><img src="/images/intsall-firmware.jpg" alt="intsall-firmware" /></p>
 
 <p>由于不同渲染设置可能造成图像问题，且不同地域的手柄○/× 按钮功能不同，建议的RPCS3点击Configuration -&gt; CPU ，逐个对照下列设置(没提供图示的请保持默认)。</p>
 
@@ -94,9 +92,7 @@
   <li>手柄调试：RPCS3点击Configuration -&gt; Pads</li>
 </ul>
 
-<p align="center">
-  <img src="https://imas-ofa.com/images/pads1.png" alt="pads1" style="width: 100%;" />
-</p>
+<p><img src="/images/pads1.png" alt="refresh" /></p>
 
 <p>Handlers 选择自己插入的手柄类型(PS3手柄 -&gt; DualShock3, PS4及PlayStation4兼容手柄 -&gt; DualShock4, PS5手柄 DualSense)。推动左右摇杆，右下角可看到感应点，检测手柄有效性。</p>
 
@@ -106,17 +102,13 @@
 
 <p>解压原游戏镜像<code class="language-plaintext highlighter-rouge">THE iDOLM@STER One For All [BLJS10260].iso</code>，将解压得到的完整文件夹复制到模拟器目录内的<code class="language-plaintext highlighter-rouge">/games/</code>目录下。然后单击模拟器界面的refresh按钮，此时偶像大师OFA原始镜像完成安装，界面中出现游戏。</p>
 
-<p align="center">
-  <img src="https://imas-ofa.com/images/refresh.jpg" alt="refresh" style="width: 100%;" />
-</p>
+<p><img src="/images/refresh.jpg" alt="refresh" /></p>
 
 <p>点击左上角 File -&gt; Intsall Packages/Raps/Edats，选择版本更新文件<code class="language-plaintext highlighter-rouge">THE iDOLM@STER One For All Patch 1.07.pkg</code> 安装游戏的版本更新，此时游戏的Version列将更新为<code class="language-plaintext highlighter-rouge">01.07</code>，然后再次点击点击左上角 File -&gt; Intsall Packages/Raps/Edats，选择DLC文件<code class="language-plaintext highlighter-rouge">THE iDOLM@STER One For All [BLJS10260][DLC].pkg</code>，安装完整DLC。(如果自己的镜像是1-9，10-14两个DLC pkg文件，则按顺序依次安装两个pkg即可)</p>
 
-<p align="center">
-  <img src="https://imas-ofa.com/images/install-pkg.jpg" alt="install-pkg" style="width: 50%;" />
-</p>
+<p><img src="/images/install-pkg.jpg" alt="install-pkg" /></p>
 
-<p>此时你已经完成原版游戏的安装。接下来请参考<a href="https://imas-ofa.com/2023/12/12/PatchTutorial.html">汉化补丁说明</a>进行游戏汉化操作。</p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[RPCS3游戏安装说明]]></summary></entry><entry><title type="html">偶像大师-OFA DISC 汉化补丁说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC 汉化补丁说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2025-07-18T08:55:49+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<h1 id="偶像大师-ofa-disc-汉化补丁说明">偶像大师-OFA DISC 汉化补丁说明</h1>
+<p>此时你已经完成原版游戏的安装。接下来请参考<a href="https://imas-ofa.com/2023/12/12/PatchTutorial.html">汉化补丁说明</a>进行游戏汉化操作。</p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[RPCS3游戏安装说明]]></summary></entry><entry><title type="html">偶像大师-OFA DISC 汉化补丁说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC 汉化补丁说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2025-07-18T09:00:11+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<h1 id="偶像大师-ofa-disc-汉化补丁说明">偶像大师-OFA DISC 汉化补丁说明</h1>
 
 <p>本教程为偶像大师OFA汉化补丁操作步骤说明。</p>
 
@@ -128,7 +120,7 @@
 
 <h2 id="全部所需文件sha1哈希">全部所需文件SHA1哈希</h2>
 
-<p>请参照<a href="https://imas-ofa.com/2025-07-18-InstallTutorial.html">游戏安装说明</a>安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录，并下载汉化组提供的汉化补丁文件和打包程序。以下为本教程使用的文件的SHA1哈希。</p>
+<p>请参照<a href="https://imas-ofa.com/2025/07/18/InstallTutorial.html">游戏安装说明</a>安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录，并下载汉化组提供的汉化补丁文件和打包程序。以下为本教程使用的文件的SHA1哈希。</p>
 
 <h3 id="汉化补丁">汉化补丁</h3>
 
@@ -163,7 +155,7 @@
 
 <h3 id="1-安装原版镜像游戏">1. 安装原版镜像游戏</h3>
 
-<p>参照<a href="https://imas-ofa.com/2025-07-18-InstallTutorial.html">游戏安装说明</a>安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录（这里假定你的游戏目录为<code class="language-plaintext highlighter-rouge">THE iDOLM@STER One For All [BLJS10260]</code>）</p>
+<p>参照<a href="https://imas-ofa.com/2025/07/18/InstallTutorial.html">游戏安装说明</a>安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录（这里假定你的游戏目录为<code class="language-plaintext highlighter-rouge">THE iDOLM@STER One For All [BLJS10260]</code>）</p>
 
 <ul>
   <li>
