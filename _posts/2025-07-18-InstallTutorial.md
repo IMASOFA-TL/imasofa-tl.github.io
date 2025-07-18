@@ -48,10 +48,7 @@ PS3实机玩家请按照自己固件的安装方式进行安装。熟悉RPCS3的
 
 解压`rpcs3-v0.0.29-15711-e26d4e17_win64.7z`，模拟器目录内双击`rpcs3.exe`启动模拟器，关闭初次启动的欢迎界面，点击左上角 File -> Install Firmware，选择提供的固件文件 `PS3UPDAT.PUP`， RPCS3 将自动编译安装PS3固件，这个过程耗时视CPU性能决定，耗时3-15分钟不等。
 
-<p align="center">
-  <img src="https://imas-ofa.com/images/intsall-firmware.jpg" alt="intsall-firmware" style="width: 50%;">
-</p>
-
+![intsall-firmware](/images/intsall-firmware.jpg)
 
 
 由于不同渲染设置可能造成图像问题，且不同地域的手柄○/× 按钮功能不同，建议的RPCS3点击Configuration -> CPU ，逐个对照下列设置(没提供图示的请保持默认)。
@@ -86,10 +83,7 @@ PS3实机玩家请按照自己固件的安装方式进行安装。熟悉RPCS3的
 
 - 手柄调试：RPCS3点击Configuration -> Pads
 
-
-<p align="center">
-  <img src="https://imas-ofa.com/images/pads1.png" alt="pads1" style="width: 100%;">
-</p>
+![refresh](/images/pads1.png)
 
 Handlers 选择自己插入的手柄类型(PS3手柄 -> DualShock3, PS4及PlayStation4兼容手柄 -> DualShock4, PS5手柄 DualSense)。推动左右摇杆，右下角可看到感应点，检测手柄有效性。
 
@@ -101,14 +95,12 @@ Handlers 选择自己插入的手柄类型(PS3手柄 -> DualShock3, PS4及PlaySt
 
 解压原游戏镜像`THE iDOLM@STER One For All [BLJS10260].iso`，将解压得到的完整文件夹复制到模拟器目录内的`/games/`目录下。然后单击模拟器界面的refresh按钮，此时偶像大师OFA原始镜像完成安装，界面中出现游戏。
 
-<p align="center">
-  <img src="https://imas-ofa.com/images/refresh.jpg" alt="refresh" style="width: 100%;">
-</p>
+![refresh](/images/refresh.jpg)
+
 
 点击左上角 File -> Intsall Packages/Raps/Edats，选择版本更新文件`THE iDOLM@STER One For All Patch 1.07.pkg` 安装游戏的版本更新，此时游戏的Version列将更新为`01.07`，然后再次点击点击左上角 File -> Intsall Packages/Raps/Edats，选择DLC文件`THE iDOLM@STER One For All [BLJS10260][DLC].pkg`，安装完整DLC。(如果自己的镜像是1-9，10-14两个DLC pkg文件，则按顺序依次安装两个pkg即可)
 
-<p align="center">
-  <img src="https://imas-ofa.com/images/install-pkg.jpg" alt="install-pkg" style="width: 50%;">
-</p>
+![install-pkg](/images/install-pkg.jpg)
+
 
 此时你已经完成原版游戏的安装。接下来请参考[汉化补丁说明](https://imas-ofa.com/2023/12/12/PatchTutorial.html)进行游戏汉化操作。
