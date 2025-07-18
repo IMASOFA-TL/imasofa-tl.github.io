@@ -11,7 +11,12 @@ tags:
 
 如遇到问题、希望进行反馈、亦或是有任何建议，请加入测试QQ群：591676099
 
-[微云分流地址](https://share.weiyun.com/SDJaXOmH)
+- [腾讯微云](https://share.weiyun.com/SDJaXOmH)
+- [Microsoft OneDrive](https://1drv.ms/f/c/609ba33715b5b78e/Ek0mSasszjpJkMTBmgv7R4gBTvyAE5oGk39QxuoLxoYLpA?e=FLi6mN)
+- [百度网盘](https://pan.baidu.com/s/1O-SiG6eQWhkmApB9n9kZ3w?pwd=IMAS)，提取码：IMAS
+- [阿里云盘](https://www.alipan.com/s/9BxwWct4btg)，提取码: zw78
+- [夸克网盘](https://pan.quark.cn/s/3f98c3a721fd?pwd=FRPL)，提取码：FRPL
+
 
 ## 目录
 
