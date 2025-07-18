@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-18T09:03:58+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">RPCS3游戏安装说明</title><link href="/2025/07/18/InstallTutorial.html" rel="alternate" type="text/html" title="RPCS3游戏安装说明" /><published>2025-07-18T00:00:00+00:00</published><updated>2025-07-18T09:03:20+00:00</updated><id>/2025/07/18/InstallTutorial</id><content type="html" xml:base="/2025/07/18/InstallTutorial.html"><![CDATA[<h1 id="rpcs3游戏安装说明">RPCS3游戏安装说明</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-18T12:16:09+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">RPCS3游戏安装说明</title><link href="/2025/07/18/InstallTutorial.html" rel="alternate" type="text/html" title="RPCS3游戏安装说明" /><published>2025-07-18T00:00:00+00:00</published><updated>2025-07-18T12:15:30+00:00</updated><id>/2025/07/18/InstallTutorial</id><content type="html" xml:base="/2025/07/18/InstallTutorial.html"><![CDATA[<h1 id="rpcs3游戏安装说明">RPCS3游戏安装说明</h1>
 
 <p>本教程为RPCS3游戏安装操作步骤说明。</p>
 
 <p>如遇到问题、希望进行反馈、亦或是有任何建议，请加入测试QQ群：591676099</p>
 
-<p><a href="https://share.weiyun.com/SDJaXOmH">微云分流地址</a></p>
+<ul>
+  <li><a href="https://share.weiyun.com/SDJaXOmH">腾讯微云</a></li>
+  <li><a href="https://1drv.ms/f/c/609ba33715b5b78e/Ek0mSasszjpJkMTBmgv7R4gBTvyAE5oGk39QxuoLxoYLpA?e=FLi6mN">Microsoft OneDrive</a></li>
+  <li><a href="https://pan.baidu.com/s/1O-SiG6eQWhkmApB9n9kZ3w?pwd=IMAS">百度网盘</a>，提取码：IMAS</li>
+  <li><a href="https://www.alipan.com/s/9BxwWct4btg">阿里云盘</a>，提取码: zw78</li>
+  <li><a href="https://pan.quark.cn/s/3f98c3a721fd?pwd=FRPL">夸克网盘</a>，提取码：FRPL</li>
+</ul>
 
 <h2 id="目录">目录</h2>
 
@@ -129,13 +135,19 @@
 
 <p><img src="/images/install-pkg.jpg" alt="install-pkg" /></p>
 
-<p>此时你已经完成原版游戏的安装。接下来请参考<a href="https://imas-ofa.com/2023/12/12/PatchTutorial.html">汉化补丁说明</a>进行游戏汉化操作。</p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[RPCS3游戏安装说明]]></summary></entry><entry><title type="html">偶像大师-OFA DISC 汉化补丁说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC 汉化补丁说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2025-07-18T09:03:20+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<h1 id="偶像大师-ofa-disc-汉化补丁说明">偶像大师-OFA DISC 汉化补丁说明</h1>
+<p>此时你已经完成原版游戏的安装。接下来请参考<a href="https://imas-ofa.com/2023/12/12/PatchTutorial.html">汉化补丁说明</a>进行游戏汉化操作。</p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[RPCS3游戏安装说明]]></summary></entry><entry><title type="html">偶像大师-OFA DISC 汉化补丁说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC 汉化补丁说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2025-07-18T12:15:30+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<h1 id="偶像大师-ofa-disc-汉化补丁说明">偶像大师-OFA DISC 汉化补丁说明</h1>
 
 <p>本教程为偶像大师OFA汉化补丁操作步骤说明。</p>
 
 <p>如遇到问题、希望进行反馈、亦或是有任何建议，请加入测试QQ群：591676099</p>
 
-<p><a href="https://share.weiyun.com/SDJaXOmH">微云分流地址</a></p>
+<ul>
+  <li><a href="https://share.weiyun.com/SDJaXOmH">腾讯微云</a></li>
+  <li><a href="https://1drv.ms/f/c/609ba33715b5b78e/Ek0mSasszjpJkMTBmgv7R4gBTvyAE5oGk39QxuoLxoYLpA?e=FLi6mN">Microsoft OneDrive</a></li>
+  <li><a href="https://pan.baidu.com/s/1O-SiG6eQWhkmApB9n9kZ3w?pwd=IMAS">百度网盘</a>，提取码：IMAS</li>
+  <li><a href="https://www.alipan.com/s/9BxwWct4btg">阿里云盘</a>，提取码: zw78</li>
+  <li><a href="https://pan.quark.cn/s/3f98c3a721fd?pwd=FRPL">夸克网盘</a>，提取码：FRPL</li>
+</ul>
 
 <h2 id="目录">目录</h2>
 
