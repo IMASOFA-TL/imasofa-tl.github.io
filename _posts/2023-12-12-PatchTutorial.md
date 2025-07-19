@@ -57,7 +57,7 @@ tags:
 - 目前补丁支持汉化DISC版本游戏
 - 补丁汉化内容涵盖**完整主线和全DLC Mail内容**
 - 补丁适配安装全DLC目录1-14，ver1.07游戏版本，低版本或DLC安装不全可能会出现补丁未生效问题
-- Patch升级操作仅支持在Windows10 x64及以上版本操作系统上进行，可能需要`.net core3.1`环境，可根据提示自动安装
+- Patch操作**仅支持在Windows10 x64及以上版本操作系统**上进行，可能需要`.net core3.1`环境，可根据提示自动安装
 - 请使用RPCS3或者PS3实机运行游戏
 - RPCS3建议不修改画面设置，已证实调整画面和滤镜设置可能导致游戏贴图渲染错误。
 - RPCS3建议使用**PS3/4/5或PlayStation兼容手柄**，**有线**连接PC进行游戏，**不要使用**Xbox或类Xbox键位手柄，**不要无线连接PC**
@@ -155,7 +155,11 @@ tags:
 
 ### 3. 运行批处理文件
 
-按序依次执行（当前用户，无需开启管理员权限）批处理脚本`patch_main_disc.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件。
+按序依次执行（当前用户，无需开启管理员权限）批处理脚本`patch_main_disc.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件，下图为正确自行完成的图示。
+
+![patchcmd](/images/patchcmd.jpg)
+
+![patchdlccmd](/images/patchdlccmd.jpg)
 
 其中`patched`目录有6个文件，`patched_dlc`目录有28个文件
 
