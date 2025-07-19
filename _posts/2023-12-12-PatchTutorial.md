@@ -1,6 +1,6 @@
 ---
 title: 偶像大师-OFA DISC 汉化补丁说明
-author: AaronP
+author: "AaronP"
 tags:
   - Tutorial
 ---

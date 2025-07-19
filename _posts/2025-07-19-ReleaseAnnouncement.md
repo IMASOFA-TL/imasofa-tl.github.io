@@ -1,7 +1,7 @@
 ---
 title: 发布通稿
 imgae: images/anposter.jpg
-author: [AaronP, 如月咏星, 史大林小同志, 2NG仙人星, 蠢猫, 雪空]
+author: ["AaronP", 如月咏星, 史大林小同志, "2NG仙人星", 蠢猫, 雪空]
 tags:
   - Article
 ---
