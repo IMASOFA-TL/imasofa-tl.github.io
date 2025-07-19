@@ -2,7 +2,6 @@
   {% if include.author %}
     {% assign authors = include.author
       | join: ","
-      | downcase
       | split: ","
       | array_filter
     %}

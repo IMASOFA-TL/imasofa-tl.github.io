@@ -1,6 +1,6 @@
 ---
 title: RPCS3游戏安装说明
-author: "AaronP"
+author: AaronP
 tags:
   - Tutorial
 ---
