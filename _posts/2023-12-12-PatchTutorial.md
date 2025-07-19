@@ -11,6 +11,8 @@ tags:
 
 如遇到问题、希望进行反馈、亦或是有任何建议，请加入测试QQ群：591676099
 
+以下是补丁文件分流下载地址👇
+
 - [腾讯微云](https://share.weiyun.com/SDJaXOmH)
 - [Microsoft OneDrive](https://1drv.ms/f/c/609ba33715b5b78e/Ek0mSasszjpJkMTBmgv7R4gBTvyAE5oGk39QxuoLxoYLpA?e=FLi6mN)
 - [百度网盘](https://pan.baidu.com/s/1g8DxLewfTgThfGkG4jyzEA?pwd=IMAS)，提取码：IMAS
@@ -60,7 +62,7 @@ tags:
 - Patch操作**仅支持在Windows10 x64及以上版本操作系统**上进行，可能需要`.net core3.1`环境，可根据提示自动安装
 - 请使用RPCS3或者PS3实机运行游戏
 - RPCS3建议不修改画面设置，已证实调整画面和滤镜设置可能导致游戏贴图渲染错误。
-- RPCS3建议使用**PS3/4/5或PlayStation兼容手柄**，**有线**连接PC进行游戏，**不要使用**Xbox或类Xbox键位手柄，**不要无线连接PC**
+- RPCS3强烈推荐使用**PS3/4/5或PlayStation兼容手柄**，**有线**连接PC进行游戏，Xbox或类Xbox键位手柄**可以游玩但需要自行设置键位映射**，为保证游戏体验顺畅，建议手柄采用**有线连接PC**
 
 
 

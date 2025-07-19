@@ -11,6 +11,8 @@ tags:
 
 如遇到问题、希望进行反馈、亦或是有任何建议，请加入测试QQ群：591676099
 
+以下是补丁文件分流下载地址👇
+
 - [腾讯微云](https://share.weiyun.com/SDJaXOmH)
 - [Microsoft OneDrive](https://1drv.ms/f/c/609ba33715b5b78e/Ek0mSasszjpJkMTBmgv7R4gBTvyAE5oGk39QxuoLxoYLpA?e=FLi6mN)
 - [百度网盘](https://pan.baidu.com/s/1g8DxLewfTgThfGkG4jyzEA?pwd=IMAS)，提取码：IMAS
@@ -51,6 +53,7 @@ tags:
 - RPCS3建议不修改画面设置，已证实调整画面和滤镜设置可能导致游戏贴图渲染错误。
 - RPCS3强烈推荐使用**PS3/4/5或PlayStation兼容手柄**，**有线**连接PC进行游戏，Xbox或类Xbox键位手柄**可以游玩但需要自行设置键位映射**，为保证游戏体验顺畅，建议手柄采用**有线连接PC**
 - 模拟器完整目录**不要有任何中文字符或者空格**
+- 最新版本RPCS3在OFA中可能存在部分画面撕裂问题，我们推荐使用版本号（0.0.29≤ ver. ≤0.0.32）的模拟器进行游玩
 
 
 
