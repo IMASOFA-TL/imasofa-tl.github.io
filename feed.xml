@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-19T07:21:11+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">发布通稿</title><link href="/2025/07/19/ReleaseAnnouncement.html" rel="alternate" type="text/html" title="发布通稿" /><published>2025-07-19T00:00:00+00:00</published><updated>2025-07-19T07:20:28+00:00</updated><id>/2025/07/19/ReleaseAnnouncement</id><content type="html" xml:base="/2025/07/19/ReleaseAnnouncement.html"><![CDATA[<h1 id="偶像大师ofa汉化中文补丁--发布通稿">偶像大师OFA汉化中文补丁  发布通稿</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-19T07:25:35+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">发布通稿</title><link href="/2025/07/19/ReleaseAnnouncement.html" rel="alternate" type="text/html" title="发布通稿" /><published>2025-07-19T00:00:00+00:00</published><updated>2025-07-19T07:24:51+00:00</updated><id>/2025/07/19/ReleaseAnnouncement</id><content type="html" xml:base="/2025/07/19/ReleaseAnnouncement.html"><![CDATA[<h1 id="偶像大师ofa汉化中文补丁--发布通稿">偶像大师OFA汉化中文补丁  发布通稿</h1>
 
 <blockquote>
   <p>偶像大师企划即将迎来其20周年的生日。本次将由<a href="https://imas-ofa.com/">偶像大师OFA汉化组</a>为大家带来偶像大师One for All（全力以赴）本体（包含短信DLC）的完全汉化。后续DLC内容（DLC剧情独立于本体主线，需要游玩完本体才可以解锁，不影响本体游玩体验，当前发布版双海真美、亚美可游玩DLC内容全程）将会持续以补丁形式追加更新。</p>
@@ -103,7 +103,7 @@
 
 <h3 id="组员感言">组员感言</h3>
 
-<h4 id="aaronp汉化组组长"><a href="https://imas-ofa.com/members/AaronP.html">AaronP（汉化组组长）</a>：</h4>
+<h4 id="aaronp汉化组组长"><a href="https://imas-ofa.com/members/AaronP.html">AaronP（汉化组组长）</a></h4>
 <p>从2023年10月立项至今，历时近两年，我们的「偶像大师 One For All」中文汉化补丁终于顺利完成，与各位制作人见面了。OFA作为本家主机作中最适合新晋制作人入门、了解系列魅力的一部主机作品，却一直没有中文支持，不得不说是一件憾事。今天，能亲自参与弥补这一缺憾，并将这份成果作为我们献给「偶像大师」20周年的礼物，实在是一种莫大的幸运。</p>
 
 <p>首先我要感谢的是汉化组的全体组员，作为本次汉化项目的组长，我深知这背后每一位组员的辛勤付出与坚持不懈。从技术验证、文本翻译、润色校对，到最终打包，每一步都凝聚着大家的心血。本来，我只是希望能做出一个“勉强能玩”的版本就好，但是大家一起共同翻译时的字斟句酌，美工对每个UI重绘的精益求精，又激励着我们不断将质量打磨的更好——真的非常感谢大家的努力与坚持，大家辛苦了！</p>
@@ -113,7 +113,7 @@
 <p>其实刚发现英文社区制作了OFA和SP的英文补丁时我的心情是很复杂的——毕竟相较于英文圈，「偶像大师」在中文圈的传播度理应更广一些，甚至连韩语都有完整的OFA与SP民间汉化，而中文却长期只有一个不完整的SP单线补丁。虽然我理解要进一步了解偶像大师日语技能是必须的，也许制作汉化补丁必要性不大？但是我还是心有不甘。不过，现在我们可以宣布，截至目前，在所有「偶像大师」主机游戏的民间本地化项目中，中文汉化的进度已经走在了最前列，我们不仅追上了SP和OFA，而且无印、L4U，还有偶像大师2都已经解决了技术上的问题。其中偶像大师2更是率先完成技术验证立项，也欢迎各位有热情、有能力的P加入我们接下来的工作，一起把这份热爱传递下去！</p>
 
 <p>最后，希望这个补丁能够让更多人跨越语言的障碍，享受偶像大师，享受765Pro的大家所带来的温暖与感动。能遇见偶像大师，能通过偶像大师遇见大家，真是太好了。<del>（我永远是如月千早毒唯）</del></p>
-<h4 id="如月咏星p翻译"><a href="https://imas-ofa.com/members/%E5%A6%82%E6%9C%88%E5%92%8F%E6%98%9F.html">如月咏星P（翻译）</a>：</h4>
+<h4 id="如月咏星p翻译"><a href="https://imas-ofa.com/members/%E5%A6%82%E6%9C%88%E5%92%8F%E6%98%9F.html">如月咏星P（翻译）</a></h4>
 <p>当我从汉化组的朋友了解到，《偶像大师》正在进行SP的汉化时，我整个人都惊呆了——能为爱马仕翻译，可是我的梦想啊，我以为我再也没有机会了，但如今梦想就在眼前，我激动得不行！在加入小组以后，我也难得结交到了各方大佬~大家特别nb（真的，24K纯真，理塘丁真），而且说话又好听，感觉自己好像回家了一样…（下略）</p>
 
 <p>那么，关于这次的OFA汉化，是汉化组的大家日以继夜为大家带来的宝物，可以说热爱与真心，全都融入到了作品里。每一段对话，每一个UI，每一张图片甚至每一个字体，都能找到组员们的“头发”~，恰如标题《全力以赴》一样呢~。如果您能玩到我们的作品，那么真的不胜感激啦！</p>
@@ -184,7 +184,7 @@
 
 <p>最后，在系列的这第20个年头，希望我们能通过这份礼物，能让更多的小伙伴能喜欢上本家、感受到整个偶像大师系列的魅力，也希望系列有着更加宽广和闪耀的未来！（当然能有一部集大成的家用主机新作就更好了 -dreaming）</p>
 
-<p><img src="/images/anposter.jpg" alt="anposter" /></p>]]></content><author><name>[&quot;AaronP&quot;, &quot;如月咏星&quot;, &quot;史大林小同志&quot;, &quot;2NG仙人星&quot;, &quot;蠢猫&quot;, &quot;雪空&quot;, &quot;无敌林克&quot;]</name></author><category term="Article" /><summary type="html"><![CDATA[偶像大师OFA汉化中文补丁 发布通稿]]></summary></entry><entry><title type="html">RPCS3游戏安装说明</title><link href="/2025/07/18/InstallTutorial.html" rel="alternate" type="text/html" title="RPCS3游戏安装说明" /><published>2025-07-18T00:00:00+00:00</published><updated>2025-07-19T07:20:28+00:00</updated><id>/2025/07/18/InstallTutorial</id><content type="html" xml:base="/2025/07/18/InstallTutorial.html"><![CDATA[<h1 id="rpcs3游戏安装说明">RPCS3游戏安装说明</h1>
+<p><img src="/images/anposter.jpg" alt="anposter" /></p>]]></content><author><name>[&quot;AaronP&quot;, &quot;如月咏星&quot;, &quot;史大林小同志&quot;, &quot;2NG仙人星&quot;, &quot;蠢猫&quot;, &quot;雪空&quot;, &quot;无敌林克&quot;]</name></author><category term="Article" /><summary type="html"><![CDATA[偶像大师OFA汉化中文补丁 发布通稿]]></summary></entry><entry><title type="html">RPCS3游戏安装说明</title><link href="/2025/07/18/InstallTutorial.html" rel="alternate" type="text/html" title="RPCS3游戏安装说明" /><published>2025-07-18T00:00:00+00:00</published><updated>2025-07-19T07:24:51+00:00</updated><id>/2025/07/18/InstallTutorial</id><content type="html" xml:base="/2025/07/18/InstallTutorial.html"><![CDATA[<h1 id="rpcs3游戏安装说明">RPCS3游戏安装说明</h1>
 
 <p>本教程为RPCS3游戏安装操作步骤说明。</p>
 
@@ -321,7 +321,7 @@
 
 <p><img src="/images/install-pkg.jpg" alt="install-pkg" /></p>
 
-<p>此时你已经完成原版游戏的安装。接下来请参考<a href="https://imas-ofa.com/2023/12/12/PatchTutorial.html">汉化补丁说明</a>进行游戏汉化操作。</p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[RPCS3游戏安装说明]]></summary></entry><entry><title type="html">偶像大师-OFA DISC 汉化补丁说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC 汉化补丁说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2025-07-19T07:20:28+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<h1 id="偶像大师-ofa-disc-汉化补丁说明">偶像大师-OFA DISC 汉化补丁说明</h1>
+<p>此时你已经完成原版游戏的安装。接下来请参考<a href="https://imas-ofa.com/2023/12/12/PatchTutorial.html">汉化补丁说明</a>进行游戏汉化操作。</p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[RPCS3游戏安装说明]]></summary></entry><entry><title type="html">偶像大师-OFA DISC 汉化补丁说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC 汉化补丁说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2025-07-19T07:24:51+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<h1 id="偶像大师-ofa-disc-汉化补丁说明">偶像大师-OFA DISC 汉化补丁说明</h1>
 
 <p>本教程为偶像大师OFA汉化补丁操作步骤说明。</p>
 
