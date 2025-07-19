@@ -1,5 +1,5 @@
 ---
-name: 星仙人
+name: 2NG仙人星
 image: images/xxr.jpg
 role: jptl
 header: images/header-background.jpg
