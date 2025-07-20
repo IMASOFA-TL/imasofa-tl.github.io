@@ -157,7 +157,7 @@ tags:
 
 ### 3. 运行批处理文件
 
-按序依次执行（当前用户，无需开启管理员权限，鼠标双击bat文件即为执行）批处理脚本`patch_main_disc.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件，下图为正确自行完成的图示。
+按序依次执行（当前用户，无需开启管理员权限，鼠标双击bat文件即为执行）批处理脚本`patch_main_disc.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件，下面为正确执行完成的图示。
 
 ![patchcmd](/images/patchcmd.jpg)
 
@@ -197,7 +197,7 @@ tags:
 >
 > ![BeforeEPatch](/images/BeforeEPatch.jpg)
 >
-> 汉化后
+> 汉化后：
 >
 > ![AfterEPatch](/images/AfterEPatch.jpg)
 

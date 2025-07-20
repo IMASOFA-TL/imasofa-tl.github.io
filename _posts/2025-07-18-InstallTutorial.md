@@ -51,7 +51,7 @@ tags:
 ## RPCS3说明
 
 - RPCS3建议不修改画面设置，已证实调整画面和滤镜设置可能导致游戏贴图渲染错误。
-- RPCS3强烈推荐使用**PS3/4/5或PlayStation兼容手柄**，**有线**连接PC进行游戏，Xbox或类Xbox键位手柄**可以游玩但需要自行设置键位映射**，为保证游戏体验顺畅，建议手柄采用**有线连接PC**
+- RPCS3强烈推荐使用**PS3/4/5或PlayStation兼容手柄**，**有线**连接PC进行游戏，Xbox或类Xbox键位手柄以及键盘**可以游玩但需要自行设置键位映射**，为保证游戏体验顺畅，建议手柄采用**有线连接PC**
 - 模拟器的完整目录**不要有任何中文字符或者空格**，否则可能在安装游戏pkg或固件时**闪退**
 - 最新版本RPCS3在OFA中可能存在部分画面撕裂问题，我们推荐使用版本号（0.0.29≤ ver. ≤0.0.32）的模拟器进行游玩
 - RPCS3 建议配置：GPU：GTX1060以上, CPU：8代酷睿i7以上（Windows）；或者Apple M1及以上（MacOS）
@@ -103,7 +103,9 @@ PS3实机玩家请按照自己固件的安装方式进行安装。熟悉RPCS3的
 
 ![refresh](/images/pads1.png)
 
-Handlers 选择自己插入的手柄类型(PS3手柄 -> DualShock3, PS4及PlayStation4兼容手柄 -> DualShock4, PS5手柄 DualSense)。推动左右摇杆，右下角可看到感应点，检测手柄有效性。
+Handlers 选择自己插入的手柄类型(PS3手柄 -> DualShock3, PS4及PlayStation4兼容手柄 -> DualShock4, PS5手柄 -> DualSense)。推动左右摇杆，右下角可看到感应点，检测手柄有效性。
+
+如果你使用的是Xbox布局的手柄或者键盘，需要自行在此设置按键映射。
 
 ![pads2](/images/pads2.jpg)
 
