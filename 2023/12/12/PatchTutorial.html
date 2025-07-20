@@ -62,10 +62,10 @@
 
   <meta name="author" content="AaronP">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-07-20T03:24:11+00:00">
+  <meta property="og:updated_time" content="2025-07-20T14:38:56+00:00">
   <meta property="article:published_time" content="2023-12-12T00:00:00+00:00">
-  <meta property="article:modified_time" content="2025-07-20T03:24:11+00:00">
-  <meta name="revised" content="2025-07-20T03:24:11+00:00">
+  <meta property="article:modified_time" content="2025-07-20T14:38:56+00:00">
+  <meta name="revised" content="2025-07-20T14:38:56+00:00">
 
 
 <script type="application/ld+json">
@@ -75,7 +75,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "偶像大师-OFA DISC 汉化补丁说明" },
       "datePublished": "2023-12-12T00:00:00+00:00",
-      "dateModified": "2025-07-20T03:24:11+00:00",
+      "dateModified": "2025-07-20T14:38:56+00:00",
     
     "name": "偶像大师-OFA DISC 汉化补丁说明",
     "description": "偶像大师OFA汉化项目",
@@ -733,9 +733,28 @@
 
 <p><img src="/images/save.jpg" alt="save"></p>
 
+<h4 id="中文制作人名输入">中文制作人名输入</h4>
+
+<p>汉化补丁支持非生僻字的中文制作人名输入，具体方式为启动游戏前，在设置内取消勾选<code class="language-plaintext highlighter-rouge">Use native user interface</code></p>
+
+<p><img src="/images/input1.png" alt="input1"></p>
+
+<p>然后进入游戏，在初次要求输入制作人名时，使用电脑系统的输入法在RPCS3提供的输入框内输入名字</p>
+
+<p><img src="/images/input2.png" alt="input2">
+<img src="/images/input3.png" alt="input3"></p>
+
+<p>如果已经输入过制作人名，则常规方式无法再修改名字。需要删掉文件（并非游戏内删除，而且通过电脑删除整个存档文件），rpcs3的存档文件在<code class="language-plaintext highlighter-rouge">dev_hdd0/home/00000001/savedata/</code>，有两个存档文件夹<code class="language-plaintext highlighter-rouge">BLJS10260_SAVEDATA</code>和<code class="language-plaintext highlighter-rouge">BLJS10260_PHOTODATA</code>，均需要删除（PHOTODATA文件夹如果没有保存过MV或者照片可能不存在）</p>
+
 <h3 id="7-补丁升级">7. 补丁升级</h3>
 
 <p>汉化补丁支持兼容存档升级，发布更新修复问题的补丁时，请将步骤2目录中的补丁压缩包<code class="language-plaintext highlighter-rouge">patch_main.zip, patch_dlc.zip</code>更换为最新补丁，重复步骤3，4即可（直接覆盖旧版汉化游戏文件）</p>
+
+<h3 id="8-其他事项">8. 其他事项</h3>
+
+<ul>
+  <li>如果之前游玩过日文版游戏，在替换中文补丁游戏后闪退，建议右键 <code class="language-plaintext highlighter-rouge">remove -&gt; remove all caches</code> 尝试清理所有缓存再尝试。</li>
+</ul>
   </section>
 
   
