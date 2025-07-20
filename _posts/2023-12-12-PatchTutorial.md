@@ -232,9 +232,29 @@ tags:
 
 ![save](/images/save.jpg)
 
+#### 中文制作人名输入
+
+汉化补丁支持非生僻字的中文制作人名输入，具体方式为启动游戏前，在设置内取消勾选`Use native user interface`
+
+![input1](/images/input1.png)
+
+然后进入游戏，在初次要求输入制作人名时，使用电脑系统的输入法在RPCS3提供的输入框内输入名字
+
+![input2](/images/input2.png)
+![input3](/images/input3.png)
+
+如果已经输入过制作人名，则常规方式无法再修改名字。需要删掉文件（并非游戏内删除，而且通过电脑删除整个存档文件），rpcs3的存档文件在`dev_hdd0/home/00000001/savedata/`，有两个存档文件夹`BLJS10260_SAVEDATA`和`BLJS10260_PHOTODATA`，均需要删除（PHOTODATA文件夹如果没有保存过MV或者照片可能不存在）
+
+
 ### 7. 补丁升级
 
 汉化补丁支持兼容存档升级，发布更新修复问题的补丁时，请将步骤2目录中的补丁压缩包`patch_main.zip, patch_dlc.zip`更换为最新补丁，重复步骤3，4即可（直接覆盖旧版汉化游戏文件）
+
+
+### 8. 其他事项
+
+- 如果之前游玩过日文版游戏，在替换中文补丁游戏后闪退，建议右键 `remove -> remove all caches` 尝试清理所有缓存再尝试。
+
 
 
 
