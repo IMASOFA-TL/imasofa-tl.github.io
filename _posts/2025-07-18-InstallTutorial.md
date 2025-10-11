@@ -123,4 +123,4 @@ Handlers 选择自己插入的手柄类型(PS3手柄 -> DualShock3, PS4及PlaySt
 ![install-pkg](/images/install-pkg.jpg)
 
 
-此时你已经完成原版游戏的安装。接下来请参考[汉化补丁说明](https://imas-ofa.com/2023/12/12/PatchTutorial.html)进行游戏汉化操作。
+此时你已经完成原版游戏的安装。接下来请参考[汉化补丁说明](https://ofa.idolmaster.top/2023/12/12/PatchTutorial.html)进行游戏汉化操作。

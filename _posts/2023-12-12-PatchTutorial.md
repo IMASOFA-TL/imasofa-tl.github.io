@@ -42,7 +42,7 @@ tags:
 
 ## 全部所需文件SHA1哈希
 
-请参照[游戏安装说明](https://imas-ofa.com/2025/07/18/InstallTutorial.html)安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录，并下载汉化组提供的汉化补丁文件和打包程序。以下为本教程使用的文件的SHA1哈希。
+请参照[游戏安装说明](https://ofa.idolmaster.top/2025/07/18/InstallTutorial.html)安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录，并下载汉化组提供的汉化补丁文件和打包程序。以下为本教程使用的文件的SHA1哈希。
 
 ### 汉化补丁
 
@@ -75,7 +75,7 @@ tags:
 
 ### 1. 安装原版镜像游戏
 
-参照[游戏安装说明](https://imas-ofa.com/2025/07/18/InstallTutorial.html)安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录（这里假定你的游戏目录为`THE iDOLM@STER One For All [BLJS10260]`）
+参照[游戏安装说明](https://ofa.idolmaster.top/2025/07/18/InstallTutorial.html)安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录（这里假定你的游戏目录为`THE iDOLM@STER One For All [BLJS10260]`）
 
 - HDD DISC文件
 
