@@ -824,7 +824,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>July 20, 2025</span>
+      <span>October 11, 2025</span>
     </span>
   
 </div>
@@ -907,7 +907,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>July 20, 2025</span>
+      <span>October 11, 2025</span>
     </span>
   
 </div>
@@ -992,7 +992,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>July 20, 2025</span>
+      <span>October 11, 2025</span>
     </span>
   
 </div>
@@ -1100,7 +1100,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://imas-sp.com/" data-tooltip="SP项目友链" data-style="bare" aria-label="SP项目友链">
+    <a class="button" href="https://sp.idolmaster.top/" data-tooltip="SP项目友链" data-style="bare" aria-label="SP项目友链">
       <i class="icon fa-solid fa-link"></i>
       
     </a>
@@ -1118,6 +1118,110 @@
 
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
+<script>
+(function() {
+  // 如果本会话已关闭过提示，则不再显示
+  if (sessionStorage.getItem('domainNoticeClosed')) return;
+
+  // 创建提示条容器
+  const div = document.createElement('div');
+  div.id = 'domain-notice';
+  div.setAttribute('role', 'status');
+  div.innerHTML = `
+    <div class="domain-notice-inner">
+      <p>
+        提示：本站域名已由 
+        <a href="https://imas-ofa.com" target="_blank" style="color:#ffd700;text-decoration:underline;">imas-sp.com</a>
+        迁移至 
+        <a href="https://ofa.idolmaster.top" target="_blank" style="color:#ffd700;text-decoration:underline;">sp.idolmaster.top</a>。
+        请更新您的书签。
+      </p>
+      <button id="close-domain-notice">我知道了</button>
+    </div>
+  `;
+  document.body.appendChild(div);
+
+  // 样式
+  const style = document.createElement('style');
+  style.innerHTML = `
+    #domain-notice {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 99999;
+      display: flex;
+      justify-content: center;
+      pointer-events: none;
+    }
+    .domain-notice-inner {
+      pointer-events: auto;
+      transform: translateY(120%);
+      transition: transform 450ms cubic-bezier(.2,.9,.2,1), opacity 350ms;
+      opacity: 0;
+      background: rgba(40,40,40,0.95);
+      color: #fff;
+      padding: 14px 18px;
+      margin: 12px;
+      border-radius: 8px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+      max-width: 960px;
+      width: calc(100% - 48px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 14px;
+    }
+    .domain-notice-inner p { margin:0; line-height:1.3; flex:1; }
+    .domain-notice-inner a { color: #ffd700; text-decoration: underline; }
+    .domain-notice-inner button {
+      background: #00aaff;
+      border: none;
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .domain-notice-inner button:active { transform: translateY(1px); }
+    @media (max-width:520px){
+      .domain-notice-inner { flex-direction: column; align-items: stretch; gap:8px; text-align:center; }
+      .domain-notice-inner button { margin: 0 auto; }
+    }
+  `;
+  document.head.appendChild(style);
+
+  // 弹出动画
+  requestAnimationFrame(() => {
+    const inner = document.querySelector('.domain-notice-inner');
+    inner.style.transform = 'translateY(0)';
+    inner.style.opacity = '1';
+  });
+
+  // 隐藏函数
+  function hide(immediate = false) {
+    const inner = document.querySelector('.domain-notice-inner');
+    if (!inner) return;
+    if (immediate) {
+      inner.style.transition = 'transform 260ms cubic-bezier(.2,.9,.2,1), opacity 220ms';
+    }
+    inner.style.transform = 'translateY(120%)';
+    inner.style.opacity = '0';
+    setTimeout(() => {
+      const container = document.getElementById('domain-notice');
+      if (container) container.remove();
+    }, 320);
+  }
+
+  // 点击“我知道了”关闭提示，并标记为已关闭（仅当前会话）
+  document.getElementById('close-domain-notice').addEventListener('click', () => {
+    sessionStorage.setItem('domainNoticeClosed', '1');
+    hide(true);
+  });
+
+})();
+</script>
 
   </body>
 </html>
