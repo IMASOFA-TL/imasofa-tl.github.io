@@ -192,9 +192,9 @@ tags:
 
 和`patched_dlc`目录中的所有文件覆盖模拟器硬盘安装目录`dev_hdd0/game/BLJS10260/USRDIR`的EDAT文件。(注意这里复制了patched目录中剩余的2个文件和patched_dlc中的所有文件到硬盘安装目录)
 
-### 5. EBOOT Patch
+### 5. EBOOT Patch *
 
-> EBOOT Patch针对部分系统UI HardCode内容进行汉化，仅需要进行一次，后续升级除非提供新的EBOOT.BIN，否则不再需要进行此步操作。
+> （本步为可选操作）EBOOT Patch针对部分系统UI HardCode内容进行汉化，仅需要进行一次，后续升级除非提供新的EBOOT.BIN，否则不再需要进行此步操作。
 >
 > 汉化前：
 >
@@ -214,6 +214,7 @@ tags:
 #### EBOOT Patch注意事项
 
 - PS3实机在进行EBOOT Patch时需要自行进行重签名。
+- 实体机对EBOOT.BIN重签名时可能需要把EBOOT.BIN重命名为EBOOT.ELF，因为是解密后的文件。
 - 替换后RPCS3会重建SPU Cache，第一次加载可能较慢，且可能有贴图错误。游戏一段时间后即可恢复正常。
 
 
