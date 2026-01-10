@@ -22,7 +22,7 @@ footer-dark: false
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS8VIX16l06xTGc5o0tLkk6ExDIBwp4_q8K_4G7leE5SImw-o-T8Nhi8nYBsC2QP8u-601bliihjVq0/pubchart?oid=2107114203&amp;format=interactive" width="600" height="400" style="border:0;"></iframe>
 
-**※ DLC剧情独立于本体主线，需要游玩完本体才可以解锁，不影响本体游玩体验，当前发布版双海真美、亚美可游玩DLC内容全程。**
+**※ DLC剧情独立于本体主线，需要游玩完本体才可以解锁，当前全游戏汉化初版已全部完成发布。如想体验最新校对版，请加入讨论QQ群**
 
 
 {% include tags.html tags="publication, resource, website" %}
