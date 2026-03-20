@@ -41,6 +41,7 @@ footer-dark: false
 ### 其他
 
 - [偶像大师SP汉化组](https://sp.idolmaster.top)目前正在进行偶像大师SP汉化的工作，亦欢迎有能P加入
+- [偶像大师2](https://github.com/Waldenth/Imas2ToolS)目前也已启动汉化工作，欢迎加入
 
 {% include section.html %}
 

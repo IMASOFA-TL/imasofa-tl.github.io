@@ -20,6 +20,13 @@ redirect_from:
 
 {% include section.html %}
 
+## News
+
+{% capture text %}
+
+《偶像大师2》（THE IDOLM@STER 2）目前也已启动汉化工作，欢迎有能P加入！
+
+
 ## 进度
 
 {% capture text %}
