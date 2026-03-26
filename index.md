@@ -22,7 +22,7 @@ redirect_from:
 
 ## News
 
-《偶像大师2》（THE IDOLM@STER 2）目前也已启动汉化工作，欢迎有能P加入！
+[《偶像大师2》（THE IDOLM@STER 2）](https://2nd.idolmaster.top)目前也已启动汉化工作，欢迎有能P加入！
 
 
 ## 进度
