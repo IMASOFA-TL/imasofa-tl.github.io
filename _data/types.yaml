@@ -175,6 +175,13 @@ friendlylink2:
   tooltip: 2代项目友链
   link: https://2nd.idolmaster.top/$VALUE
 
+friendlylink3:
+  icon: fa-solid fa-link
+  text: 偶像大师交流站
+  tooltip: 偶像大师交流站
+  link: https://idol-master.top/$VALUE
+
+
 
 # alerts
 
