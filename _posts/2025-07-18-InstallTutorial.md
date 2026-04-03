@@ -79,7 +79,7 @@ PS3实机玩家请按照自己固件的安装方式进行安装。熟悉RPCS3的
 
 ![GPU](/images/GPU.jpg)
 
-- Audio：采用兼容性最好的立体声设置
+- Audio：采用兼容性最好的立体声设置；此外，有[反馈报告](https://github.com/IMASOFA-TL/imasofa-tl.github.io/issues/1)称Enable Buffering会造成明显延迟手感，因此在无破音爆音情况下也可以考虑关闭这个选项
 
 ![Audio](/images/Audio.jpg)
 
