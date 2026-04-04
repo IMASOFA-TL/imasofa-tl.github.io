@@ -26,6 +26,8 @@ redirect_from:
 
 - [《偶像大师2》（THE IDOLM@STER 2）](https://2nd.idolmaster.top)目前也已启动汉化工作，欢迎有能P加入！
 
+- OFA全DLC汉化初版已全部完成发布，[点击前往下载](https://ofa.idolmaster.top/2023/12/12/PatchTutorial.html)！
+
 
 ## 进度
 
