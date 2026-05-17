@@ -22,6 +22,8 @@ redirect_from:
 
 ## News
 
+- OFA全DLC汉化5月校对版已发布，[点击前往下载](https://ofa.idolmaster.top/2023/12/12/PatchTutorial.html)！
+
 - [偶像大师交流站](https://idol-master.top)建站完成，欢迎访问友链！
 
 - [《偶像大师2》（THE IDOLM@STER 2）](https://2nd.idolmaster.top)目前也已启动汉化工作，欢迎有能P加入！
