@@ -13,11 +13,9 @@ tags:
 
 以下是补丁文件分流下载地址👇
 
-- [腾讯微云](https://share.weiyun.com/SDJaXOmH)
+- [腾讯微云（26.07.01-已更新）](https://share.weiyun.com/SDJaXOmH)
+- [百度网盘（26.07.01-已更新）](https://pan.baidu.com/s/1bjQulu6yb00Lj10j2HLrjA?pwd=r4te)，提取码：r4te
 - [Microsoft OneDrive](https://1drv.ms/f/c/609ba33715b5b78e/Ek0mSasszjpJkMTBmgv7R4gBTvyAE5oGk39QxuoLxoYLpA?e=FLi6mN)
-- [百度网盘](https://pan.baidu.com/s/1g8DxLewfTgThfGkG4jyzEA?pwd=IMAS)，提取码：IMAS
-- [阿里云盘](https://www.alipan.com/s/9BxwWct4btg)，提取码: zw78
-- [夸克网盘](https://pan.quark.cn/s/3f98c3a721fd?pwd=FRPL)，提取码：FRPL
 
 
 ## 目录
