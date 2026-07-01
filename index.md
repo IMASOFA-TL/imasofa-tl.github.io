@@ -22,7 +22,9 @@ redirect_from:
 
 ## News
 
-- OFA全DLC汉化5月校对版已发布，[点击前往下载](https://ofa.idolmaster.top/2023/12/12/PatchTutorial.html)！
+- 部分网盘外链补丁文件存在文件损坏，已修复腾讯微云和百度网盘外链
+
+- OFA全DLC汉化6月校对版已发布，[点击前往下载](https://ofa.idolmaster.top/2023/12/12/PatchTutorial.html)！
 
 - [偶像大师交流站](https://idol-master.top)建站完成，欢迎访问友链！
 
