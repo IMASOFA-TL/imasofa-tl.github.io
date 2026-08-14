@@ -1,13 +1,13 @@
 ---
-title: 偶像大师-OFA DISC 汉化补丁说明
+title: 偶像大师-OFA PSN 汉化补丁说明
 author: AaronP
 tags:
   - Tutorial
 ---
 
-# 偶像大师-OFA DISC 汉化补丁说明
+# 偶像大师-OFA PSN 汉化补丁说明
 
-本教程为偶像大师OFA汉化补丁操作步骤说明。
+本教程为偶像大师OFA汉化补丁PSN版本操作步骤说明。主要服务于实机玩家。
 
 如遇到问题、希望进行反馈、亦或是有任何建议，请加入测试QQ群：591676099
 
@@ -20,41 +20,26 @@ tags:
 
 ## 目录
 
-- [偶像大师-OFA DISC 汉化补丁说明](#%E5%81%B6%E5%83%8F%E5%A4%A7%E5%B8%88-ofa-disc-%E6%B1%89%E5%8C%96%E8%A1%A5%E4%B8%81%E8%AF%B4%E6%98%8E)
-  - [目录](#%E7%9B%AE%E5%BD%95)
-  - [全部所需文件SHA1哈希](#%E5%85%A8%E9%83%A8%E6%89%80%E9%9C%80%E6%96%87%E4%BB%B6sha1%E5%93%88%E5%B8%8C)
-    - [汉化补丁](#%E6%B1%89%E5%8C%96%E8%A1%A5%E4%B8%81)
-  - [补丁及游戏说明](#%E8%A1%A5%E4%B8%81%E5%8F%8A%E6%B8%B8%E6%88%8F%E8%AF%B4%E6%98%8E)
-  - [DISC补丁说明](#disc%E8%A1%A5%E4%B8%81%E8%AF%B4%E6%98%8E)
-    - [1. 安装原版镜像游戏](#1-%E5%AE%89%E8%A3%85%E5%8E%9F%E7%89%88%E9%95%9C%E5%83%8F%E6%B8%B8%E6%88%8F)
-    - [2. 准备目录](#2-%E5%87%86%E5%A4%87%E7%9B%AE%E5%BD%95)
-    - [3. 运行批处理文件](#3-%E8%BF%90%E8%A1%8C%E6%89%B9%E5%A4%84%E7%90%86%E6%96%87%E4%BB%B6)
-    - [4. 覆盖原文件](#4-%E8%A6%86%E7%9B%96%E5%8E%9F%E6%96%87%E4%BB%B6)
-    - [5. EBOOT Patch](#5-eboot-patch)
-      - [EBOOT Patch注意事项](#eboot-patch%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
-    - [6. 游戏内设置](#6-%E6%B8%B8%E6%88%8F%E5%86%85%E8%AE%BE%E7%BD%AE)
-      - [自动存档](#%E8%87%AA%E5%8A%A8%E5%AD%98%E6%A1%A3)
-      - [中文制作人名输入](#%E4%B8%AD%E6%96%87%E5%88%B6%E4%BD%9C%E4%BA%BA%E5%90%8D%E8%BE%93%E5%85%A5)
-    - [7. 补丁升级](#7-%E8%A1%A5%E4%B8%81%E5%8D%87%E7%BA%A7)
-    - [8. 其他事项](#8-%E5%85%B6%E4%BB%96%E4%BA%8B%E9%A1%B9)
+
 
 ## 全部所需文件SHA1哈希
 
-请参照[游戏安装说明](https://ofa.idolmaster.top/2025/07/18/InstallTutorial.html)安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录，并下载汉化组提供的汉化补丁文件和打包程序。以下为本教程使用的文件的SHA1哈希。
+请参照[游戏安装说明](https://ofa.idolmaster.top/2025/07/18/InstallTutorial.html)安装好原版PSN镜像（NPJB00611），ver1.07升级包，1-14全DLC目录，并下载汉化组提供的汉化补丁文件和打包程序。以下为本教程使用的文件的SHA1哈希。
 
 ### 汉化补丁
+
 
 - Imas-Archive.exe：5E944D02568B07D9C997A691A7BDFE3B8CCCA236
 - imas.exe：E725CC5A43B088575F3E6DCCD0A33932D970766F
 - make_npdata.exe：BC751F3EF4DEA8E36CD62BB9A7B7E0519F653005
-- patch_main_disc.bat：42B901EE6A3FDD027C62810B8B268D7F0BE1052B
+- patch_main_psn.bat：BA1CC9862FE8E25A8AECD119B45AD70E84C9C4E9
 - patch_dlc.bat：92A0BA7EDC916FEDB4441F6BA263C771545E0AFA
 
 
 
 ## 补丁及游戏说明
 
-- 目前补丁支持汉化DISC版本游戏
+- 目前补丁支持汉化PSN版本游戏
 - 补丁汉化内容涵盖**完整主线和全DLC Mail内容**
 - 补丁适配安装全DLC目录1-14，ver1.07游戏版本，低版本或DLC安装不全可能会出现补丁未生效问题
 - Patch操作**仅支持在Windows10 x64及以上版本操作系统**上进行，可能需要`.net core3.1`环境，可根据提示自动安装
@@ -64,29 +49,27 @@ tags:
 
 
 
-## DISC补丁说明
+## PSN补丁说明
 
 > 请仔细阅读，严格按照步骤进行汉化补丁覆盖
 
-### 1. 安装原版镜像游戏
+### 1. 安装原版游戏
 
-参照[游戏安装说明](https://ofa.idolmaster.top/2025/07/18/InstallTutorial.html)安装好原版DISC镜像（BLJS10260），ver1.07升级包，1-14全DLC目录（这里假定你的游戏目录为`THE iDOLM@STER One For All [BLJS10260]`）
+安装游戏原版pkg，更新pkg和全DLC的pkg
 
-- HDD DISC文件
+- PSN文件
 
-  在`games/THE iDOLM@STER One For All [BLJS10260]/PS3_GAME/USRDIR`目录下，应有4项文件（不用关心其他文件和子目录）
+  在`dev_hdd0\game\NPJB00611\USRDIR`目录下，应有4项文件（不用关心其他文件和子目录）
 
-  - hdd.arc
-  - hdd.bin
-  - disc.arc
-  - disc.bin
-
-  ![GAMEDIR](/images/GAMEDIR.jpg)
+  - ofa.arc.edat
+  - ofa.bin.edat
+  - _patch.bin.edat
+  - _patch.arc.edat
 
 
 - EDAT文件
 
-  在`dev_hdd0/game/BLJS10260/USRDIR`下，应有如下文件
+  在`dev_hdd0/game/BLJS10260/USRDIR`下，应有如下文件（注意，虽然PSN版本游戏编号是NPJB00611，但是安装DLC的目录仍然叫做BLJS10260）
 
   - _patch.arc.edat
   - _patch.bin.edat
@@ -105,8 +88,6 @@ tags:
   - _dlc13_107.arc.edat, _dlc13_107.bin.edat
   - _dlc14_107.arc.edat, _dlc14_107.bin.edat
 
-  ![HDDDIR](/images/HDDDIR.jpg)
-
 
 ### 2. 准备目录
 
@@ -121,66 +102,39 @@ tags:
 - patched
 - patched_dlc
 
-复制发布的补丁执行程序`imas.exe, Imas-Archive.exe`到本目录
+复制发布的补丁执行程序`imas.exe, Imas-Archive.exe`和解密密钥`JP0700-NPJB00611_00-0000000000000000.rap`到本目录
 
 复制发布的补丁压缩包`patch_main.zip, patch_dlc.zip`到本目录
 
 复制edat加解密程序`make_npdata.exe`到本目录
 
-复制批处理脚本`patch_dlc.bat, patch_main_disc.bat`到本目录
+复制批处理脚本`patch_dlc.bat, patch_main_psn.bat`到本目录
 
-将步骤1中的`HDD DISC文件`复制到`original`目录
-
-将步骤1中的`EDAT文件`中的`_patch.arc.edat, _patch.bin.edat`也复制到`original`目录
+将步骤1中的`PSN文件`复制到`original`目录
 
 将步骤1中的`EDAT文件`中全部复制到`original_dlc`目录
 
- 
-
-最终目录如下
-
-![patchtotorial_folderstructure](/images/patchtotorial_folderstructure.jpg)
-
-   
-
-`original`目录如下
-
-![orginal_folder](/images/orginal_folder.jpg)
-
- 
-
-`original_dlc`目录如下
-
-![originaldlc_folder](/images/originaldlc_folder.jpg)
 
 ### 3. 运行批处理文件
 
-按序依次执行（当前用户，无需开启管理员权限，鼠标双击bat文件即为执行）批处理脚本`patch_main_disc.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件，下面为正确执行完成的图示。
+按序依次执行（当前用户，无需开启管理员权限，鼠标双击bat文件即为执行）批处理脚本`patch_main_psn.bat, patch_dlc.bat`，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在`patched`目录和`patched_dlc`目录中得到汉化后的游戏文件。
 
-![patchcmd](/images/patchcmd.jpg)
 
-![patchdlccmd](/images/patchdlccmd.jpg)
-
-其中`patched`目录有6个文件，`patched_dlc`目录有28个文件
-
-![patched](/images/patched.jpg)
-
-![patched_dlc](/images/patched_dlc.jpg)
 
 
 ### 4. 覆盖原文件
 
-将`patched`目录中的以下4个文件
+将`patched`目录中的全部4个文件
 
-- hdd.arc
-- hdd.bin
-- disc.arc
-- disc.bin
+- ofa.arc.edat
+- ofa.bin.edat
+- _patch.bin.edat
+- _patch.arc.edat
 
-覆盖模拟器游戏安装目录`games/THE iDOLM@STER One For All [BLJS10260]/PS3_GAME/USRDIR`的HDD DISC文件。(注意不包括_patch.arc.edat和_patch.bin.edat)
+覆盖模拟器游戏安装目录`dev_hdd0\game\NPJB00611\USRDIR`的PSN文件。
 
 
-再将`patched`目录中的剩下的以下2个文件
+再将`patched`目录中的2个文件
 
 - _patch.arc.edat
 - _patch.bin.edat
