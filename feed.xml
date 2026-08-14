@@ -1,4 +1,214 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-07-01T10:33:10+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">发布通稿</title><link href="/2025/07/19/ReleaseAnnouncement.html" rel="alternate" type="text/html" title="发布通稿" /><published>2025-07-19T00:00:00+00:00</published><updated>2026-07-01T10:32:11+00:00</updated><id>/2025/07/19/ReleaseAnnouncement</id><content type="html" xml:base="/2025/07/19/ReleaseAnnouncement.html"><![CDATA[<h1 id="偶像大师ofa汉化中文补丁--发布通稿">偶像大师OFA汉化中文补丁  发布通稿</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-08-14T16:16:18+00:00</updated><id>/feed.xml</id><title type="html">偶像大师OFA汉化组</title><subtitle>偶像大师OFA汉化项目</subtitle><entry><title type="html">偶像大师-OFA PSN 汉化补丁说明</title><link href="/2026/08/14/PatchTurorial-PSN.html" rel="alternate" type="text/html" title="偶像大师-OFA PSN 汉化补丁说明" /><published>2026-08-14T00:00:00+00:00</published><updated>2026-08-14T16:14:11+00:00</updated><id>/2026/08/14/PatchTurorial-PSN</id><content type="html" xml:base="/2026/08/14/PatchTurorial-PSN.html"><![CDATA[<h1 id="偶像大师-ofa-psn-汉化补丁说明">偶像大师-OFA PSN 汉化补丁说明</h1>
+
+<p>本教程为偶像大师OFA汉化补丁PSN版本操作步骤说明。主要服务于实机玩家。</p>
+
+<p>如遇到问题、希望进行反馈、亦或是有任何建议，请加入测试QQ群：591676099</p>
+
+<p>以下是补丁文件分流下载地址👇</p>
+
+<ul>
+  <li><a href="https://share.weiyun.com/SDJaXOmH">腾讯微云（26.07.01-已更新）</a></li>
+  <li><a href="https://pan.baidu.com/s/1bjQulu6yb00Lj10j2HLrjA?pwd=r4te">百度网盘（26.07.01-已更新）</a>，提取码：r4te</li>
+  <li><a href="https://1drv.ms/f/c/609ba33715b5b78e/Ek0mSasszjpJkMTBmgv7R4gBTvyAE5oGk39QxuoLxoYLpA?e=FLi6mN">Microsoft OneDrive</a></li>
+</ul>
+
+<h2 id="目录">目录</h2>
+
+<h2 id="全部所需文件sha1哈希">全部所需文件SHA1哈希</h2>
+
+<p>请参照<a href="https://ofa.idolmaster.top/2025/07/18/InstallTutorial.html">游戏安装说明</a>安装好原版PSN镜像（NPJB00611），ver1.07升级包，1-14全DLC目录，并下载汉化组提供的汉化补丁文件和打包程序。以下为本教程使用的文件的SHA1哈希。</p>
+
+<h3 id="汉化补丁">汉化补丁</h3>
+
+<ul>
+  <li>Imas-Archive.exe：5E944D02568B07D9C997A691A7BDFE3B8CCCA236</li>
+  <li>imas.exe：E725CC5A43B088575F3E6DCCD0A33932D970766F</li>
+  <li>make_npdata.exe：BC751F3EF4DEA8E36CD62BB9A7B7E0519F653005</li>
+  <li>patch_main_psn.bat：BA1CC9862FE8E25A8AECD119B45AD70E84C9C4E9</li>
+  <li>patch_dlc.bat：92A0BA7EDC916FEDB4441F6BA263C771545E0AFA</li>
+</ul>
+
+<h2 id="补丁及游戏说明">补丁及游戏说明</h2>
+
+<ul>
+  <li>目前补丁支持汉化PSN版本游戏</li>
+  <li>补丁汉化内容涵盖<strong>完整主线和全DLC Mail内容</strong></li>
+  <li>补丁适配安装全DLC目录1-14，ver1.07游戏版本，低版本或DLC安装不全可能会出现补丁未生效问题</li>
+  <li>Patch操作<strong>仅支持在Windows10 x64及以上版本操作系统</strong>上进行，可能需要<code class="language-plaintext highlighter-rouge">.net core3.1</code>环境，可根据提示自动安装</li>
+  <li>请使用RPCS3或者PS3实机运行游戏</li>
+  <li>RPCS3建议不修改画面设置，已证实调整画面和滤镜设置可能导致游戏贴图渲染错误。</li>
+  <li>RPCS3强烈推荐使用<strong>PS3/4/5或PlayStation兼容手柄</strong>，<strong>有线</strong>连接PC进行游戏，Xbox或类Xbox键位手柄<strong>可以游玩但需要自行设置键位映射</strong>，为保证游戏体验顺畅，建议手柄采用<strong>有线连接PC</strong></li>
+</ul>
+
+<h2 id="psn补丁说明">PSN补丁说明</h2>
+
+<blockquote>
+  <p>请仔细阅读，严格按照步骤进行汉化补丁覆盖</p>
+</blockquote>
+
+<h3 id="1-安装原版游戏">1. 安装原版游戏</h3>
+
+<p>安装游戏原版pkg，更新pkg和全DLC的pkg</p>
+
+<ul>
+  <li>
+    <p>PSN文件</p>
+
+    <p>在<code class="language-plaintext highlighter-rouge">dev_hdd0\game\NPJB00611\USRDIR</code>目录下，应有4项文件（不用关心其他文件和子目录）</p>
+
+    <ul>
+      <li>ofa.arc.edat</li>
+      <li>ofa.bin.edat</li>
+      <li>_patch.bin.edat</li>
+      <li>_patch.arc.edat</li>
+    </ul>
+  </li>
+  <li>
+    <p>EDAT文件</p>
+
+    <p>在<code class="language-plaintext highlighter-rouge">dev_hdd0/game/BLJS10260/USRDIR</code>下，应有如下文件（注意，虽然PSN版本游戏编号是NPJB00611，但是安装DLC的目录仍然叫做BLJS10260）</p>
+
+    <ul>
+      <li>_patch.arc.edat</li>
+      <li>_patch.bin.edat</li>
+      <li>dlc01.arc.edat, dlc01.bin.edat</li>
+      <li>dlc02.arc.edat, dlc02.bin.edat</li>
+      <li>_dlc03.arc.edat, _dlc03.bin.edat</li>
+      <li>_dlc04.arc.edat, _dlc04.bin.edat</li>
+      <li>_dlc05.arc.edat, _dlc05.bin.edat</li>
+      <li>_dlc06.arc.edat, _dlc06.bin.edat</li>
+      <li>_dlc07.arc.edat, _dlc07.bin.edat</li>
+      <li>_dlc08.arc.edat, _dlc08.bin.edat</li>
+      <li>_dlc09.arc.edat, _dlc09.bin.edat</li>
+      <li>_dlc10.arc.edat, _dlc10.bin.edat</li>
+      <li>_dlc11.arc.edat, _dlc11.bin.edat</li>
+      <li>_dlc12.arc.edat, _dlc12.bin.edat</li>
+      <li>_dlc13_107.arc.edat, _dlc13_107.bin.edat</li>
+      <li>_dlc14_107.arc.edat, _dlc14_107.bin.edat</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="2-准备目录">2. 准备目录</h3>
+
+<p>新建一个全英文名称文件夹，注意文件夹前缀目录依然是全英文，不要带有中文或全角字符。</p>
+
+<p>如<code class="language-plaintext highlighter-rouge">G:\IMAS-OFA-TLP\ImasOFAProject\Patch\PatchToARC</code></p>
+
+<p>在文件夹内新建4个目录</p>
+
+<ul>
+  <li>original</li>
+  <li>original_dlc</li>
+  <li>patched</li>
+  <li>patched_dlc</li>
+</ul>
+
+<p>复制发布的补丁执行程序<code class="language-plaintext highlighter-rouge">imas.exe, Imas-Archive.exe</code>和解密密钥<code class="language-plaintext highlighter-rouge">JP0700-NPJB00611_00-0000000000000000.rap</code>到本目录</p>
+
+<p>复制发布的补丁压缩包<code class="language-plaintext highlighter-rouge">patch_main.zip, patch_dlc.zip</code>到本目录</p>
+
+<p>复制edat加解密程序<code class="language-plaintext highlighter-rouge">make_npdata.exe</code>到本目录</p>
+
+<p>复制批处理脚本<code class="language-plaintext highlighter-rouge">patch_dlc.bat, patch_main_psn.bat</code>到本目录</p>
+
+<p>将步骤1中的<code class="language-plaintext highlighter-rouge">PSN文件</code>复制到<code class="language-plaintext highlighter-rouge">original</code>目录</p>
+
+<p>将步骤1中的<code class="language-plaintext highlighter-rouge">EDAT文件</code>中全部复制到<code class="language-plaintext highlighter-rouge">original_dlc</code>目录</p>
+
+<h3 id="3-运行批处理文件">3. 运行批处理文件</h3>
+
+<p>按序依次执行（当前用户，无需开启管理员权限，鼠标双击bat文件即为执行）批处理脚本<code class="language-plaintext highlighter-rouge">patch_main_psn.bat, patch_dlc.bat</code>，注意执行完成前一个脚本后再执行下一个，不报错的情况下会在<code class="language-plaintext highlighter-rouge">patched</code>目录和<code class="language-plaintext highlighter-rouge">patched_dlc</code>目录中得到汉化后的游戏文件。</p>
+
+<h3 id="4-覆盖原文件">4. 覆盖原文件</h3>
+
+<p>将<code class="language-plaintext highlighter-rouge">patched</code>目录中的全部4个文件</p>
+
+<ul>
+  <li>ofa.arc.edat</li>
+  <li>ofa.bin.edat</li>
+  <li>_patch.bin.edat</li>
+  <li>_patch.arc.edat</li>
+</ul>
+
+<p>覆盖模拟器游戏安装目录<code class="language-plaintext highlighter-rouge">dev_hdd0\game\NPJB00611\USRDIR</code>的PSN文件。</p>
+
+<p>再将<code class="language-plaintext highlighter-rouge">patched</code>目录中的2个文件</p>
+
+<ul>
+  <li>_patch.arc.edat</li>
+  <li>_patch.bin.edat</li>
+</ul>
+
+<p>和<code class="language-plaintext highlighter-rouge">patched_dlc</code>目录中的所有文件覆盖模拟器硬盘安装目录<code class="language-plaintext highlighter-rouge">dev_hdd0/game/BLJS10260/USRDIR</code>的EDAT文件。(注意这里复制了patched目录中剩余的2个文件和patched_dlc中的所有文件到硬盘安装目录)</p>
+
+<h3 id="5-eboot-patch-">5. EBOOT Patch *</h3>
+
+<blockquote>
+  <p>（本步为可选操作）EBOOT Patch针对部分系统UI HardCode内容进行汉化，仅需要进行一次，后续升级除非提供新的EBOOT.BIN，否则不再需要进行此步操作。</p>
+
+  <p>汉化前：</p>
+
+  <p><img src="/images/BeforeEPatch.jpg" alt="BeforeEPatch" /></p>
+
+  <p>汉化后：</p>
+
+  <p><img src="/images/AfterEPatch.jpg" alt="AfterEPatch" /></p>
+</blockquote>
+
+<ul>
+  <li>将dev_hdd0/game/BLJS10260/USRDIR/下的EBOOT.BIN重命名为EBOOT.BIN.BAK 以备份</li>
+  <li>复制补丁包提供的EBOOT.BIN，粘贴到dev_hdd0/game/BLJS10260/USRDIR/目录下</li>
+</ul>
+
+<p>此时你已经完成偶像大师-OFA全部汉化Patch操作。</p>
+
+<h4 id="eboot-patch注意事项">EBOOT Patch注意事项</h4>
+
+<ul>
+  <li>PS3实机在进行EBOOT Patch时需要自行进行重签名。</li>
+  <li>实体机对EBOOT.BIN重签名时可能需要把EBOOT.BIN重命名为EBOOT.ELF，因为是解密后的文件。</li>
+  <li>替换后RPCS3会重建SPU Cache，第一次加载可能较慢，且可能有贴图错误。游戏一段时间后即可恢复正常。</li>
+</ul>
+
+<h3 id="6-游戏内设置">6. 游戏内设置</h3>
+
+<p>右键Game List中的偶像大师OFA游戏行，展开启动菜单，单击Boot即可进入游戏。</p>
+
+<p><img src="/images/Boot.jpg" alt="Boot" /></p>
+
+<p>如果UI和文本<strong>全部</strong>正常显示<strong>中文</strong>即代表汉化成功 <strong>（只要下图的文字或者UI部分出现了假名就说明你的汉化步骤出问题了）</strong></p>
+
+<p><img src="/images/success.jpg" alt="success" /></p>
+
+<h4 id="自动存档">自动存档</h4>
+
+<p>由于游戏存档提示时的提示信息将会调用SYSTEM固件的字体，因此会出现固件提示信息汉字缺失现象，因此<strong>强烈推荐开启游戏内的自动存档，让游戏自动按周保存存档</strong>。</p>
+
+<p><img src="/images/save.jpg" alt="save" /></p>
+
+<h4 id="中文制作人名输入">中文制作人名输入</h4>
+
+<p>汉化补丁支持非生僻字的中文制作人名输入，具体方式为启动游戏前，在设置内取消勾选<code class="language-plaintext highlighter-rouge">Use native user interface</code></p>
+
+<p><img src="/images/input1.png" alt="input1" /></p>
+
+<p>然后进入游戏，在初次要求输入制作人名时，使用电脑系统的输入法在RPCS3提供的输入框内输入名字</p>
+
+<p><img src="/images/input2.png" alt="input2" />
+<img src="/images/input3.png" alt="input3" /></p>
+
+<p>如果已经输入过制作人名，则常规方式无法再修改名字。需要删掉文件（并非游戏内删除，而且通过电脑删除整个存档文件），rpcs3的存档文件在<code class="language-plaintext highlighter-rouge">dev_hdd0/home/00000001/savedata/</code>，有两个存档文件夹<code class="language-plaintext highlighter-rouge">BLJS10260_SAVEDATA</code>和<code class="language-plaintext highlighter-rouge">BLJS10260_PHOTODATA</code>，均需要删除（PHOTODATA文件夹如果没有保存过MV或者照片可能不存在）</p>
+
+<h3 id="7-补丁升级">7. 补丁升级</h3>
+
+<p>汉化补丁支持兼容存档升级，发布更新修复问题的补丁时，请将步骤2目录中的补丁压缩包<code class="language-plaintext highlighter-rouge">patch_main.zip, patch_dlc.zip</code>更换为最新补丁，重复步骤3，4即可（直接覆盖旧版汉化游戏文件）</p>
+
+<h3 id="8-其他事项">8. 其他事项</h3>
+
+<ul>
+  <li>如果之前游玩过日文版游戏，在替换中文补丁游戏后闪退，建议右键 <code class="language-plaintext highlighter-rouge">remove -&gt; remove all caches</code> 尝试清理所有缓存再尝试。</li>
+</ul>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[偶像大师-OFA PSN 汉化补丁说明]]></summary></entry><entry><title type="html">发布通稿</title><link href="/2025/07/19/ReleaseAnnouncement.html" rel="alternate" type="text/html" title="发布通稿" /><published>2025-07-19T00:00:00+00:00</published><updated>2026-08-14T16:14:11+00:00</updated><id>/2025/07/19/ReleaseAnnouncement</id><content type="html" xml:base="/2025/07/19/ReleaseAnnouncement.html"><![CDATA[<h1 id="偶像大师ofa汉化中文补丁--发布通稿">偶像大师OFA汉化中文补丁  发布通稿</h1>
 
 <blockquote>
   <p>偶像大师企划即将迎来其20周年的生日。本次将由<a href="https://ofa.idolmaster.top/">偶像大师OFA汉化组</a>为大家带来偶像大师One for All（全力以赴）本体（包含短信DLC）的完全汉化。后续DLC内容（DLC剧情独立于本体主线，需要游玩完本体才可以解锁，不影响本体游玩体验，当前发布版双海真美、亚美可游玩DLC内容全程）将会持续以补丁形式追加更新。</p>
@@ -191,7 +401,7 @@
 
 <p>最后，在系列的这第20个年头，希望我们能通过这份礼物，能让更多的小伙伴能喜欢上本家、感受到整个偶像大师系列的魅力，也希望系列有着更加宽广和闪耀的未来！（当然能有一部集大成的家用主机新作就更好了 -dreaming）</p>
 
-<p><img src="/images/anposter.jpg" alt="anposter" /></p>]]></content><author><name>[&quot;AaronP&quot;, &quot;如月咏星&quot;, &quot;史大林小同志&quot;, &quot;2NG仙人星&quot;, &quot;蠢猫&quot;, &quot;雪空&quot;, &quot;无敌林克&quot;]</name></author><category term="Article" /><summary type="html"><![CDATA[偶像大师OFA汉化中文补丁 发布通稿]]></summary></entry><entry><title type="html">RPCS3游戏安装说明</title><link href="/2025/07/18/InstallTutorial.html" rel="alternate" type="text/html" title="RPCS3游戏安装说明" /><published>2025-07-18T00:00:00+00:00</published><updated>2026-07-01T10:32:11+00:00</updated><id>/2025/07/18/InstallTutorial</id><content type="html" xml:base="/2025/07/18/InstallTutorial.html"><![CDATA[<h1 id="rpcs3游戏安装说明">RPCS3游戏安装说明</h1>
+<p><img src="/images/anposter.jpg" alt="anposter" /></p>]]></content><author><name>[&quot;AaronP&quot;, &quot;如月咏星&quot;, &quot;史大林小同志&quot;, &quot;2NG仙人星&quot;, &quot;蠢猫&quot;, &quot;雪空&quot;, &quot;无敌林克&quot;]</name></author><category term="Article" /><summary type="html"><![CDATA[偶像大师OFA汉化中文补丁 发布通稿]]></summary></entry><entry><title type="html">RPCS3游戏安装说明</title><link href="/2025/07/18/InstallTutorial.html" rel="alternate" type="text/html" title="RPCS3游戏安装说明" /><published>2025-07-18T00:00:00+00:00</published><updated>2026-08-14T16:14:11+00:00</updated><id>/2025/07/18/InstallTutorial</id><content type="html" xml:base="/2025/07/18/InstallTutorial.html"><![CDATA[<h1 id="rpcs3游戏安装说明">RPCS3游戏安装说明</h1>
 
 <p>本教程为RPCS3游戏安装操作步骤说明。</p>
 
@@ -333,7 +543,7 @@
 
 <p><img src="/images/install-pkg.jpg" alt="install-pkg" /></p>
 
-<p>此时你已经完成原版游戏的安装。接下来请参考<a href="https://ofa.idolmaster.top/2023/12/12/PatchTutorial.html">汉化补丁说明</a>进行游戏汉化操作。</p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[RPCS3游戏安装说明]]></summary></entry><entry><title type="html">偶像大师-OFA DISC 汉化补丁说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC 汉化补丁说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2026-07-01T10:32:11+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<h1 id="偶像大师-ofa-disc-汉化补丁说明">偶像大师-OFA DISC 汉化补丁说明</h1>
+<p>此时你已经完成原版游戏的安装。接下来请参考<a href="https://ofa.idolmaster.top/2023/12/12/PatchTutorial.html">汉化补丁说明</a>进行游戏汉化操作。</p>]]></content><author><name>AaronP</name></author><category term="Tutorial" /><summary type="html"><![CDATA[RPCS3游戏安装说明]]></summary></entry><entry><title type="html">偶像大师-OFA DISC 汉化补丁说明</title><link href="/2023/12/12/PatchTutorial.html" rel="alternate" type="text/html" title="偶像大师-OFA DISC 汉化补丁说明" /><published>2023-12-12T00:00:00+00:00</published><updated>2026-08-14T16:14:11+00:00</updated><id>/2023/12/12/PatchTutorial</id><content type="html" xml:base="/2023/12/12/PatchTutorial.html"><![CDATA[<h1 id="偶像大师-ofa-disc-汉化补丁说明">偶像大师-OFA DISC 汉化补丁说明</h1>
 
 <p>本教程为偶像大师OFA汉化补丁操作步骤说明。</p>
 
@@ -391,9 +601,6 @@
 <h3 id="汉化补丁">汉化补丁</h3>
 
 <ul>
-  <li>patch_main.zip：07092C346B4A34676D1788110A27CB7DE9AB07C5 （更新补丁请参考对应发布页哈希）</li>
-  <li>patch_dlc.zip：F7AAB1039DA2D5AFAA554A2B3702C9218148E3F9 （更新补丁请参考对应发布页哈希）</li>
-  <li>EBOOT.BIN：8FEAC512508BCA93F1CBD32F458FCF40A0C976B6</li>
   <li>Imas-Archive.exe：5E944D02568B07D9C997A691A7BDFE3B8CCCA236</li>
   <li>imas.exe：E725CC5A43B088575F3E6DCCD0A33932D970766F</li>
   <li>make_npdata.exe：BC751F3EF4DEA8E36CD62BB9A7B7E0519F653005</li>
