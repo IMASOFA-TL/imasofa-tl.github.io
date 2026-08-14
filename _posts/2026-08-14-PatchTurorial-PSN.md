@@ -153,8 +153,8 @@ tags:
 >
 > ![AfterEPatch](/images/AfterEPatch.jpg)
 
-- 将dev_hdd0/game/BLJS10260/USRDIR/下的EBOOT.BIN重命名为EBOOT.BIN.BAK 以备份
-- 复制补丁包提供的EBOOT.BIN，粘贴到dev_hdd0/game/BLJS10260/USRDIR/目录下
+- 将dev_hdd0\game\NPJB00611\USRDIR下的EBOOT.BIN重命名为EBOOT.BIN.BAK 以备份
+- 复制补丁包提供的PSN_EBOOT.ELF，粘贴到dev_hdd0/game/BLJS10260/USRDIR/目录下，重命名为EBOOT.BIN
 
 
 此时你已经完成偶像大师-OFA全部汉化Patch操作。
