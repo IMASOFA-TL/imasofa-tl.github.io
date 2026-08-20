@@ -22,6 +22,8 @@ redirect_from:
 
 ## News
 
+- 偶像大师2已发布汉化补丁，[点击前往下载](https://2nd.idolmaster.top/2026/07/30/PatchTutorial.html)
+
 - 部分网盘外链补丁文件存在文件损坏，已修复腾讯微云和百度网盘外链
 
 - OFA全DLC汉化6月校对版已发布，[点击前往下载](https://ofa.idolmaster.top/2023/12/12/PatchTutorial.html)！
